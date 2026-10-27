@@ -1,0 +1,5 @@
+---
+import { metrikaSnippet } from '../lib/metrika';
+const code = metrikaSnippet(import.meta.env.PUBLIC_METRIKA_ID);
+---
+{code && <script is:inline set:html={code} />}

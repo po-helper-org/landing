@@ -1,0 +1,27 @@
+---
+import { SITE, href } from '../lib/site';
+const steps = [
+  { n: 1, title: 'Найдите свою стадию', text: 'Откройте методологию и найдите стадию, где процесс сейчас буксует: вход запросов, решение, обязательства, поставка или эффект.' },
+  { n: 2, title: 'Возьмите виджет', text: 'Открытые виджеты ставятся из своих репозиториев по инструкции в README. У каждого на странице указан статус: работает, в разработке или заморожен.' },
+  { n: 3, title: 'Обсудите внедрение', text: 'Если нужен виджет под вашу команду, закрытый контур или разбор процесса, напишите в Telegram: договоримся о формате.' },
+];
+---
+<section class="band band--tint" id="connect" aria-labelledby="connect-title">
+  <div class="wrap">
+    <p class="eyebrow" data-reveal>Как подключить</p>
+    <h2 id="connect-title" data-reveal>Три шага до первого виджета</h2>
+    <ol class="steps">
+      {steps.map((s) => (
+        <li class="step glass" data-reveal>
+          <span class="step__num">{s.n}</span>
+          <h3>{s.title}</h3>
+          <p>{s.text}</p>
+        </li>
+      ))}
+    </ol>
+    <p class="hero__actions">
+      <a class="btn" href={SITE.contact.href} target="_blank" rel="noopener">{SITE.contact.label}</a>
+      <a class="btn btn--ghost" href={href('/widgets/')}>Выбрать виджет</a>
+    </p>
+  </div>
+</section>

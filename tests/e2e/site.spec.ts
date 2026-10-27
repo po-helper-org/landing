@@ -37,6 +37,31 @@ test.describe('первый экран', () => {
   });
 });
 
+test.describe('главная целиком', () => {
+  test('шесть секций в заданном порядке', async ({ page }) => {
+    await page.goto('/po-system/');
+    const ids = await page.$$eval('main > section', (els) => els.map((e) => e.id || e.className.split(' ')[0]));
+    expect(ids).toEqual(['hero', 'process', 'widgets', 'closed', 'connect']);
+    await expect(page.locator('footer')).toBeVisible();
+  });
+
+  test('процесс ведёт на стадии, витрина группирует виджеты, закрытый контур без ссылок на репозитории', async ({ page }) => {
+    await page.goto('/po-system/');
+    await expect(page.locator('#process .m-flow li')).toHaveCount(5);
+    expect(await page.locator('#widgets .showcase__group').count()).toBeGreaterThanOrEqual(4);
+    await expect(page.locator('#closed .wcard')).toHaveCount(2);
+    expect(await page.locator('#closed a[href*="github.com"]').count()).toBe(0);
+    await page.locator('#process .m-flow a').first().click();
+    await expect(page).toHaveURL(/\/po-system\/method\/vhod-zaprosov\/$/);
+  });
+
+  test('«Как подключить» заканчивается кнопкой в Telegram', async ({ page }) => {
+    await page.goto('/po-system/');
+    await expect(page.locator('#connect .step')).toHaveCount(3);
+    await expect(page.locator('#connect').getByRole('link', { name: 'Обсудить внедрение' })).toHaveAttribute('href', 'https://t.me/kibarik');
+  });
+});
+
 test.describe('методология', () => {
   test('карта показывает пять стадий и ведёт на страницу стадии', async ({ page }) => {
     await page.goto('/po-system/method/');

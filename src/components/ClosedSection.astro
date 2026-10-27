@@ -1,0 +1,15 @@
+---
+import WidgetCard from './WidgetCard.astro';
+import { allWidgets, isPrivate } from '../lib/widgets';
+import { SITE } from '../lib/site';
+const closed = (await allWidgets()).filter(isPrivate);
+---
+<section class="band" id="closed" aria-labelledby="closed-title">
+  <div class="wrap">
+    <p class="eyebrow" data-reveal>Закрытый контур</p>
+    <h2 id="closed-title" data-reveal>Серверная часть экосистемы</h2>
+    <p class="lead" data-reveal>Часть возможностей живёт в закрытых репозиториях: репозитории и код не публикуются, а чем они занимаются, описано здесь. Показ и подключение — по договорённости.</p>
+    <ul class="wgrid" data-reveal>{closed.map((w) => <WidgetCard w={w} />)}</ul>
+    <p><a class="btn btn--ghost" href={SITE.contact.href} target="_blank" rel="noopener">Договориться о показе</a></p>
+  </div>
+</section>

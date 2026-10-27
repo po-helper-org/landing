@@ -1,0 +1,27 @@
+---
+import { allNodes, byRole, nodeUrl, type MethodNode } from '../lib/method';
+import { href } from '../lib/site';
+const nodes = await allNodes();
+const stages = byRole(nodes, 'stage');
+const gate = (n: MethodNode) => n.data.gate?.title.toLowerCase();
+---
+<section class="band" id="process" aria-labelledby="process-title">
+  <div class="wrap">
+    <p class="eyebrow" data-reveal>Методология</p>
+    <h2 id="process-title" data-reveal>Пять стадий от запроса до результата</h2>
+    <p class="lead" data-reveal>Процесс Product Owner с гейтом на выходе каждой стадии: дальше идут, только когда условие выполнено.</p>
+    <ol class="m-flow" data-reveal>
+      {stages.map((s) => (
+        <li>
+          <a href={nodeUrl(s)}>
+            <span class="m-flow__num">{s.data.stage}</span>
+            <span class="m-flow__name">{s.data.short}</span>
+            <span class="m-flow__q">{s.data.question}</span>
+            {gate(s) && <span class="m-flow__gate">на выходе: {gate(s)}</span>}
+          </a>
+        </li>
+      ))}
+    </ol>
+    <p><a class="btn btn--ghost" href={href('/method/')}>Вся методология</a></p>
+  </div>
+</section>

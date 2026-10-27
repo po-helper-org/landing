@@ -1,0 +1,27 @@
+---
+import { groupsByStage, widgetUrl } from '../lib/widgets';
+import { href } from '../lib/site';
+const groups = await groupsByStage();
+const STATUS_CLASS: Record<string, string> = { 'работает': 'ok', 'в разработке': 'wip', 'заморожен': 'frozen', 'закрытый': 'closed' };
+---
+<section class="band band--tint" id="widgets" aria-labelledby="widgets-title">
+  <div class="wrap">
+    <p class="eyebrow" data-reveal>Виджеты</p>
+    <h2 id="widgets-title" data-reveal>Что автоматизирует каждую стадию</h2>
+    <p class="lead" data-reveal>Виджет — возможность автоматизации, подключаемая к экосистеме. У каждого есть задача, статус и, если репозиторий открыт, ссылка на код.</p>
+    <div class="showcase">
+      {groups.map((g) => (
+        <article class="showcase__group glass" data-reveal>
+          <h3><a href={g.url}>{g.title}</a></h3>
+          <p class="note">{g.hint}</p>
+          <ul class="showcase__list">
+            {g.widgets.map((w) => (
+              <li><a href={widgetUrl(w)}><span class={`chip chip--${STATUS_CLASS[w.data.status]}`}>{w.data.status}</span>{w.data.title}</a></li>
+            ))}
+          </ul>
+        </article>
+      ))}
+    </div>
+    <p><a class="btn" href={href('/widgets/')}>Все виджеты с описаниями</a></p>
+  </div>
+</section>

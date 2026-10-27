@@ -1,9 +1,13 @@
 ---
 import Base from '../layouts/Base.astro';
 import Hero from '../components/Hero.astro';
+import ProcessSection from '../components/ProcessSection.astro';
+import ShowcaseSection from '../components/ShowcaseSection.astro';
+import ClosedSection from '../components/ClosedSection.astro';
+import ConnectSection from '../components/ConnectSection.astro';
 import { allWidgets } from '../lib/widgets';
 import { allNodes, byRole } from '../lib/method';
-import { SITE } from '../lib/site';
+import { SITE, PROFILES, href } from '../lib/site';
 
 const widgets = await allWidgets();
 const stages = byRole(await allNodes(), 'stage');
@@ -13,9 +17,22 @@ const stages = byRole(await allNodes(), 'stage');
   description="Методология и подключаемые виджеты автоматизации для корпоративного Product Owner: от запроса бизнеса до доказанного эффекта."
   path="/"
   current="home"
+  jsonld={{
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE.name,
+    description: `${SITE.tagline}. ${SITE.subtitle}`,
+    url: new URL(href('/'), SITE.origin).href,
+    founder: { '@type': 'Person', name: SITE.owner.name, url: SITE.owner.href },
+    sameAs: PROFILES.map((p) => p.href),
+  }}
 >
   <main id="main">
     <Hero widgets={widgets.length} stages={stages.length} />
+    <ProcessSection />
+    <ShowcaseSection />
+    <ClosedSection />
+    <ConnectSection />
   </main>
   <script>
     // Входные анимации: элементы появляются при прокрутке; без JS и при «уменьшить движение» всё видно сразу.
