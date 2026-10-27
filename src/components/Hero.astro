@@ -1,8 +1,12 @@
 ---
 import Icon from './Icon.astro';
+import type { IconName } from './Icon.astro';
+import { allNodes, byRole, nodeUrl } from '../lib/method';
 import { SITE, href } from '../lib/site';
-interface Props { widgets: number; stages: number }
-const { widgets, stages } = Astro.props;
+interface Props { widgets: number }
+const { widgets } = Astro.props;
+const STAGE_ICON: Record<number, IconName> = { 1: 'inbox', 2: 'decision', 3: 'promise', 4: 'delivery', 5: 'effect' };
+const stages = byRole(await allNodes(), 'stage');
 ---
 <section class="hero" id="hero" aria-labelledby="hero-title">
   <div class="hero__bg" aria-hidden="true">
@@ -14,33 +18,28 @@ const { widgets, stages } = Astro.props;
     <span class="dot dot--3"></span>
   </div>
   <div class="wrap hero__inner">
-    <p class="eyebrow" data-reveal>{SITE.tagline}</p>
+    <p class="pill" data-reveal><span class="pill__dot" aria-hidden="true"></span>{SITE.tagline}</p>
     <h1 id="hero-title" data-reveal>
-      Как построить <span class="grad">IT-департамент</span>, который быстро и качественно делает то, что просит бизнес
+      <span class="grad">po-helper-org</span>
+      <span class="hero__sub">для вашего IT-департамента</span>
     </h1>
-    <p class="lead" data-reveal>
-      {SITE.subtitle} Путь от запроса бизнеса до доказанного эффекта.
+    <p class="lead hero__lead" data-reveal>
+      {SITE.subtitle} <strong>{SITE.problem}</strong> Методология из пяти стадий и {widgets} виджетов автоматизации.
     </p>
-    <p class="hero__actions" data-reveal>
-      <a class="btn" href={SITE.contact.href} target="_blank" rel="noopener">{SITE.contact.label}</a>
-      <a class="btn btn--ghost" href={href('/method/')}>Смотреть методологию</a>
-    </p>
-    <ul class="tiles">
-      <li class="tile glass" data-reveal>
-        <span class="tile__icon"><Icon name="process" /></span>
-        <strong>{stages} стадий процесса</strong>
-        <span>от поступления запроса до эффекта, с гейтами на выходе каждой стадии</span>
-      </li>
-      <li class="tile glass" data-reveal>
-        <span class="tile__icon"><Icon name="widgets" /></span>
-        <strong>{widgets} виджетов</strong>
-        <span>возможности автоматизации, привязанные к шагам процесса</span>
-      </li>
-      <li class="tile glass" data-reveal>
-        <span class="tile__icon"><Icon name="open" /></span>
-        <strong>Открытый код</strong>
-        <span>репозитории организации публичные, закрытый контур описан словами</span>
-      </li>
+    <p class="hero__tools-title" data-reveal>Пять стадий процесса Product Owner:</p>
+    <ul class="hero__tools" data-reveal>
+      {stages.map((s) => (
+        <li>
+          <a class="tool glass" href={nodeUrl(s)}>
+            <span class="tool__icon"><Icon name={STAGE_ICON[s.data.stage ?? 1]} size={26} /></span>
+            <span class="tool__name">{s.data.short}</span>
+          </a>
+        </li>
+      ))}
     </ul>
+    <p class="hero__actions" data-reveal>
+      <a class="btn btn--lg" href={SITE.contact.href} target="_blank" rel="noopener">{SITE.contact.label}</a>
+      <a class="btn btn--white btn--lg" href={href('/widgets/')}>Смотреть виджеты</a>
+    </p>
   </div>
 </section>

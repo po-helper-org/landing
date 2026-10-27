@@ -7,7 +7,15 @@ test.describe('первый экран', () => {
     await page.goto('/po-system/');
     const cta = page.getByRole('link', { name: 'Обсудить внедрение' }).first();
     await expect(cta).toHaveAttribute('href', 'https://t.me/kibarik');
-    await expect(page.getByRole('heading', { level: 1 })).toContainText('IT-департамент');
+    await expect(page.getByRole('heading', { level: 1 })).toContainText('po-helper-org');
+    await expect(page.locator('.hero__lead')).toContainText('IT-департамент');
+  });
+
+  test('в первом экране ряд из пяти плиток-стадий, каждая ведёт на свою страницу', async ({ page }) => {
+    await page.goto('/po-system/');
+    await expect(page.locator('.hero__tools .tool')).toHaveCount(5);
+    await page.locator('.hero__tools .tool').nth(2).click();
+    await expect(page).toHaveURL(/\/po-system\/method\/obyazatelstva\/$/);
   });
 
   test('страница не обращается к сторонним доменам', async ({ page, baseURL }) => {

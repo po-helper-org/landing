@@ -1,16 +1,18 @@
 ---
+import Icon from './Icon.astro';
+import type { IconName } from './Icon.astro';
 import type { Widget } from '../lib/widgets';
 import { widgetUrl } from '../lib/widgets';
 interface Props { w: Widget }
 const { w } = Astro.props;
 const STATUS_CLASS: Record<string, string> = { 'работает': 'ok', 'в разработке': 'wip', 'заморожен': 'frozen', 'закрытый': 'closed' };
+const TYPE_ICON: Record<string, IconName> = { 'навык': 'skill', 'агент': 'agent', 'плагин харнесса': 'plugin', 'воркфлоу': 'flow' };
+const icon: IconName = w.data.status === 'закрытый' ? 'lock' : TYPE_ICON[w.data.type];
 ---
-<li class="wcard glass">
-  <p class="wcard__meta">
-    <span class={`chip chip--${STATUS_CLASS[w.data.status]}`}>{w.data.status}</span>
-    <span class="wcard__type">{w.data.type}</span>
-  </p>
+<li class="wcard">
+  <span class={`chip chip--${STATUS_CLASS[w.data.status]} wcard__badge`}>{w.data.status}</span>
+  <span class="wcard__icon"><Icon name={icon} size={26} /></span>
   <h3><a href={widgetUrl(w)}>{w.data.title}</a></h3>
   <p class="wcard__task">{w.data.task}</p>
-  <p class="wcard__aud">Кому: {w.data.audience}</p>
+  <p class="wcard__aud">{w.data.type} · для: {w.data.audience}</p>
 </li>

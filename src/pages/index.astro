@@ -6,11 +6,9 @@ import ShowcaseSection from '../components/ShowcaseSection.astro';
 import ClosedSection from '../components/ClosedSection.astro';
 import ConnectSection from '../components/ConnectSection.astro';
 import { allWidgets } from '../lib/widgets';
-import { allNodes, byRole } from '../lib/method';
 import { SITE, PROFILES, href } from '../lib/site';
 
 const widgets = await allWidgets();
-const stages = byRole(await allNodes(), 'stage');
 ---
 <Base
   title={`${SITE.name} — ${SITE.tagline}`}
@@ -28,7 +26,7 @@ const stages = byRole(await allNodes(), 'stage');
   }}
 >
   <main id="main">
-    <Hero widgets={widgets.length} stages={stages.length} />
+    <Hero widgets={widgets.length} />
     <ProcessSection />
     <ShowcaseSection />
     <ClosedSection />
