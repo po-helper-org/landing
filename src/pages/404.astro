@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+const home = import.meta.env.BASE_URL;
+---
+<Base title="Страница не найдена — po-helper-org" description="Такой страницы в разделе нет.">
+  <main>
+    <h1>Страницы нет</h1>
+    <p><a href={home}>Вернуться на главную раздела</a></p>
+  </main>
+</Base>
