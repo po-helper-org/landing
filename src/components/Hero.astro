@@ -1,0 +1,46 @@
+---
+import Icon from './Icon.astro';
+import { SITE, href } from '../lib/site';
+interface Props { widgets: number; stages: number }
+const { widgets, stages } = Astro.props;
+---
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero__bg" aria-hidden="true">
+    <span class="orb orb--a"></span>
+    <span class="orb orb--b"></span>
+    <span class="orb orb--c"></span>
+    <span class="dot dot--1"></span>
+    <span class="dot dot--2"></span>
+    <span class="dot dot--3"></span>
+  </div>
+  <div class="wrap hero__inner">
+    <p class="eyebrow" data-reveal>{SITE.tagline}</p>
+    <h1 id="hero-title" data-reveal>
+      Как построить <span class="grad">IT-департамент</span>, который быстро и качественно делает то, что просит бизнес
+    </h1>
+    <p class="lead" data-reveal>
+      {SITE.subtitle} Путь от запроса бизнеса до доказанного эффекта.
+    </p>
+    <p class="hero__actions" data-reveal>
+      <a class="btn" href={SITE.contact.href} target="_blank" rel="noopener">{SITE.contact.label}</a>
+      <a class="btn btn--ghost" href={href('/method/')}>Смотреть методологию</a>
+    </p>
+    <ul class="tiles">
+      <li class="tile glass" data-reveal>
+        <span class="tile__icon"><Icon name="process" /></span>
+        <strong>{stages} стадий процесса</strong>
+        <span>от поступления запроса до эффекта, с гейтами на выходе каждой стадии</span>
+      </li>
+      <li class="tile glass" data-reveal>
+        <span class="tile__icon"><Icon name="widgets" /></span>
+        <strong>{widgets} виджетов</strong>
+        <span>возможности автоматизации, привязанные к шагам процесса</span>
+      </li>
+      <li class="tile glass" data-reveal>
+        <span class="tile__icon"><Icon name="open" /></span>
+        <strong>Открытый код</strong>
+        <span>репозитории организации публичные, закрытый контур описан словами</span>
+      </li>
+    </ul>
+  </div>
+</section>

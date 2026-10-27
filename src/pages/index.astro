@@ -1,12 +1,32 @@
 ---
 import Base from '../layouts/Base.astro';
+import Hero from '../components/Hero.astro';
+import { allWidgets } from '../lib/widgets';
+import { allNodes, byRole } from '../lib/method';
+import { SITE } from '../lib/site';
+
+const widgets = await allWidgets();
+const stages = byRole(await allNodes(), 'stage');
 ---
 <Base
-  title="po-helper-org — экосистема для AI Product Owner"
-  description="Методология и витрина виджетов экосистемы po-helper-org: операционка для корпоративного Product Owner."
+  title={`${SITE.name} — ${SITE.tagline}`}
+  description="Методология и подключаемые виджеты автоматизации для корпоративного Product Owner: от запроса бизнеса до доказанного эффекта."
+  path="/"
+  current="home"
 >
-  <main>
-    <h1>po-helper-org</h1>
-    <p>Экосистема для роли AI Product Owner. Страница в разработке.</p>
+  <main id="main">
+    <Hero widgets={widgets.length} stages={stages.length} />
   </main>
+  <script>
+    // Входные анимации: элементы появляются при прокрутке; без JS и при «уменьшить движение» всё видно сразу.
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const items = document.querySelectorAll<HTMLElement>('[data-reveal]');
+    if (!reduce && 'IntersectionObserver' in window) {
+      document.documentElement.classList.add('reveal');
+      const io = new IntersectionObserver((entries) => {
+        for (const e of entries) if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); }
+      }, { threshold: 0.15 });
+      items.forEach((el) => io.observe(el));
+    }
+  </script>
 </Base>

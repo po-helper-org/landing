@@ -1,0 +1,1797 @@
+{
+  "blog/1000mrr-way": {
+    "title": "От нуля до $1,000 MRR: реальные алгоритмы SaaS-стартапов 2024–2026",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/1000mrr-way/"
+  },
+  "blog/19-distribution-channels": {
+    "title": "19 каналов дистрибуции Вайнберга",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/19-distribution-channels/"
+  },
+  "blog/4p-otsifroka-produktovyh-resheniy": {
+    "title": "4P оцифрока продуктовых решений",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/4p-otsifroka-produktovyh-resheniy/"
+  },
+  "blog/7-powers-pochemu-odni-kompanii-derzhat-pozitsiyu-godami-a": {
+    "title": "7 Powers: почему одни компании держат позицию годами, а другие — нет",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/7-powers-pochemu-odni-kompanii-derzhat-pozitsiyu-godami-a/"
+  },
+  "blog/a-b-leaks": {
+    "title": "Плохие A/B тесты",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/a-b-leaks/"
+  },
+  "blog/a-b-math-basics": {
+    "title": "Ошибки первого и второго рода в A/B тестировании",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/a-b-math-basics/"
+  },
+  "blog/aarrr": {
+    "title": "AARRR",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/aarrr/"
+  },
+  "blog/ab-experiment-designs": {
+    "title": "Дизайн A/B эксперимента: как спроектировать тест, который дает инсайды",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/ab-experiment-designs/"
+  },
+  "blog/ach-analiz-konkuriruyushchih-gipotez": {
+    "title": "Анализ конкурирующих гипотез (ACH): как найти причину падения метрики",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/ach-analiz-konkuriruyushchih-gipotez/"
+  },
+  "blog/agentgateway-opensource-sloy-dlya-zaschity-kommunikatsii-mezhdu": {
+    "title": "AgentGateway - OpenSource слой для защиты коммуникации между всеми компонентами AI-системы",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/agentgateway-opensource-sloy-dlya-zaschity-kommunikatsii-mezhdu/"
+  },
+  "blog/ai-academy-ot-ibm": {
+    "title": "AI Academy от IBM",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/ai-academy-ot-ibm/"
+  },
+  "blog/ai-agents-evolution-architecture-real-world-applications": {
+    "title": "AI Agents: Evolution, Architecture & Real-World Applications",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/ai-agents-evolution-architecture-real-world-applications/"
+  },
+  "blog/aleks-for-pmf-pinned-davayte-poobschaemsya": {
+    "title": "Aleks for PMF pinned «Давайте пообщаемся?",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/aleks-for-pmf-pinned-davayte-poobschaemsya/"
+  },
+  "blog/assumption-mapping-karta-dopushcheniy": {
+    "title": "Карта допущений (assumption mapping): что проверять до разработки",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/assumption-mapping-karta-dopushcheniy/"
+  },
+  "blog/atomic-research-atomarnye-issledovaniya": {
+    "title": "Атомарные исследования: как перестать платить за ресёрч дважды",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/atomic-research-atomarnye-issledovaniya/"
+  },
+  "blog/beyond-the-gang-of-four-practical-design-patterns-for-modern-ai": {
+    "title": "Beyond the Gang of Four: Practical Design Patterns for Modern AI System",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/beyond-the-gang-of-four-practical-design-patterns-for-modern-ai/"
+  },
+  "blog/bol-klienta-kak-istochnik-gipotezy-kak-slyshat-problemu-a-ne": {
+    "title": "Боль клиента как источник гипотезы: как слышать проблему, а не просьбу",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/bol-klienta-kak-istochnik-gipotezy-kak-slyshat-problemu-a-ne/"
+  },
+  "blog/bold-technical-document-leak": {
+    "title": "Ловушка тяжёлого ТЗ: 30 страниц документации вместо 2-недельного теста",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/bold-technical-document-leak/"
+  },
+  "blog/brands-as-intentional-agents-framework-biaf": {
+    "title": "Brands as Intentional Agents Framework (BIAF)",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/brands-as-intentional-agents-framework-biaf/"
+  },
+  "blog/build-measure-learn-produktovyy-podhod": {
+    "title": "Build Measure Learn продуктовый подход",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/build-measure-learn-produktovyy-podhod/"
+  },
+  "blog/bullseye-framework": {
+    "title": "Bullseye Framework: как выбрать один канал трафика вместо семи одновременно",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/bullseye-framework/"
+  },
+  "blog/bus-factor-leak": {
+    "title": "Bus Factor: когда уход одного человека останавливает продукт",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/bus-factor-leak/"
+  },
+  "blog/bus-factor-pochemu-odin-uhod-ostanavlivaet-ves-produkt": {
+    "title": "Bus Factor: почему один уход останавливает весь продукт",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/bus-factor-pochemu-odin-uhod-ostanavlivaet-ves-produkt/"
+  },
+  "blog/ch1-anatomiya-provala-startapov": {
+    "title": "Ч1 - Анатомия провала стартапов?",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/ch1-anatomiya-provala-startapov/"
+  },
+  "blog/ch2-v-chem-osnovnaya-prichina-provala-startapov": {
+    "title": "Ч2 - В чем основная причина провала стартапов?",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/ch2-v-chem-osnovnaya-prichina-provala-startapov/"
+  },
+  "blog/ch3-est-li-proverennye-printsipy-filosoviya-uspeshnyh-startapov": {
+    "title": "Ч3 - Есть ли проверенные принципы&филосовия успешных стартапов?",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/ch3-est-li-proverennye-printsipy-filosoviya-uspeshnyh-startapov/"
+  },
+  "blog/ch4-chto-schitaetsya-uspeshnym-startapom": {
+    "title": "Ч4: Что считается успешным стартапом",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/ch4-chto-schitaetsya-uspeshnym-startapom/"
+  },
+  "blog/ch5-kak-menedzher-produkta-vliyayut-na-uspeh-startapa": {
+    "title": "Ч5: Как менеджер продукта влияют на успех стартапа?",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/ch5-kak-menedzher-produkta-vliyayut-na-uspeh-startapa/"
+  },
+  "blog/ch6-preseed-startapa": {
+    "title": "Ч6: PreSeed стартапа",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/ch6-preseed-startapa/"
+  },
+  "blog/community-led-growth": {
+    "title": "Запуск через комьюнити (Community-Led-Grow)",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/community-led-growth/"
+  },
+  "blog/confirmation-bias-v-dannyh-komanda-6-mesyatsev-validiruet-to-vo": {
+    "title": "Confirmation bias в данных: команда 6 месяцев «валидирует» то, во что уже верит",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/confirmation-bias-v-dannyh-komanda-6-mesyatsev-validiruet-to-vo/"
+  },
+  "blog/conjoint-analysis-kondzhoynt-chto-pokazyvat-na-kartochkah-tsen": {
+    "title": "Conjoint Analysis (конджойнт): что показывать на карточках цен для максимизации прибыли",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/conjoint-analysis-kondzhoynt-chto-pokazyvat-na-kartochkah-tsen/"
+  },
+  "blog/conjoint-analysis": {
+    "title": "Conjoint-анализ: как узнать, за что клиенты реально готовы платить, до того как вы соберёте тариф",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/conjoint-analysis/"
+  },
+  "blog/context-engineering-for-agents": {
+    "title": "Context Engineering for Agents",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/context-engineering-for-agents/"
+  },
+  "blog/dannye-govoryat-odno-ceo-govorit-drugoe": {
+    "title": "Данные говорят одно. CEO говорит другое",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/dannye-govoryat-odno-ceo-govorit-drugoe/"
+  },
+  "blog/dibb-kak-spotify-prevratil-hotelki-v-proveryaemye-stavki": {
+    "title": "DIBB: как Spotify превратил «хотелки» в проверяемые ставки",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/dibb-kak-spotify-prevratil-hotelki-v-proveryaemye-stavki/"
+  },
+  "blog/dizayn-drift-v-claude-code": {
+    "title": "Дизайн-дрифт в Claude Code",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/dizayn-drift-v-claude-code/"
+  },
+  "blog/double-diamond-ne-prygay-v-reshenie-snachala-naydi-pravilnuyu": {
+    "title": "Double Diamond: не прыгай в решение — сначала найди правильную проблему",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/double-diamond-ne-prygay-v-reshenie-snachala-naydi-pravilnuyu/"
+  },
+  "blog/empathy-map": {
+    "title": "Как перестать проектировать для «среднего пользователя» и начать для живого человека",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/empathy-map/"
+  },
+  "blog/feature-factory-komanda-stroit-fichi-rost-ne-idet": {
+    "title": "Feature factory: команда строит фичи, рост не идёт",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/feature-factory-komanda-stroit-fichi-rost-ne-idet/"
+  },
+  "blog/founder-market-fit-pochemu-pravilnaya-ideya-v-rukah-ne-togo": {
+    "title": "Founder-Market Fit: почему правильная идея в руках не того фаундера не взлетает",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/founder-market-fit-pochemu-pravilnaya-ideya-v-rukah-ne-togo/"
+  },
+  "blog/gabor-granger-izmeryaet-veroyatnost-pokupki-pri-raznyh-urovnyah": {
+    "title": "Gabor–Granger: измеряет вероятность покупки при разных уровнях цены",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/gabor-granger-izmeryaet-veroyatnost-pokupki-pri-raznyh-urovnyah/"
+  },
+  "blog/gabor-granger-method": {
+    "title": "Gabor-Granger: как найти цену, которую рынок готов платить",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/gabor-granger-method/"
+  },
+  "blog/gartner-hype-cycle-metodologiya-otsenki-tehnologiy": {
+    "title": "Gartner Hype Cycle – методология оценки технологий",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/gartner-hype-cycle-metodologiya-otsenki-tehnologiy/"
+  },
+  "blog/guerilla-marketing": {
+    "title": "Партизанский маркетинг в стартапах: как получить первых клиентов без бюджета",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/guerilla-marketing/"
+  },
+  "blog/isikawa-diagram": {
+    "title": "Как найти настоящую причину проблемы, а не её симптом",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/isikawa-diagram/"
+  },
+  "blog/issledovanie-ob-otsenke-rag-sistem": {
+    "title": "Исследование об оценке RAG-систем",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/issledovanie-ob-otsenke-rag-sistem/"
+  },
+  "blog/ju2llw1vxzm": {
+    "title": "Бесполезный JTBD - гипотезы которые не выходят в рынок",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/ju2llw1vxzm/"
+  },
+  "blog/kak-kodit-s-telefona-v-gorah-osetii-proekt-happy-engineering": {
+    "title": "Как кодить с телефона в горах Осетии: Проект Happy Engineering",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/kak-kodit-s-telefona-v-gorah-osetii-proekt-happy-engineering/"
+  },
+  "blog/kak-startapery-proveryali-svoi-idei-v-2025": {
+    "title": "Как стартаперы проверяли свои идеи в 2025",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/kak-startapery-proveryali-svoi-idei-v-2025/"
+  },
+  "blog/kak-ubit-gonku-za-fichami-i-vernut-produktu-fokus": {
+    "title": "Как убить гонку за фичами и вернуть продукту фокус",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/kak-ubit-gonku-za-fichami-i-vernut-produktu-fokus/"
+  },
+  "blog/karta-segmentatsii-auditorii": {
+    "title": "Карта сегментации аудитории",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/karta-segmentatsii-auditorii/"
+  },
+  "blog/kladbische-startapov": {
+    "title": "Кладбище стартапов",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/kladbische-startapov/"
+  },
+  "blog/klient-vsegda-prav-kak-bukvalnye-zaprosy-razrushayut-produkt": {
+    "title": "«Клиент всегда прав»: как буквальные запросы разрушают продукт",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/klient-vsegda-prav-kak-bukvalnye-zaprosy-razrushayut-produkt/"
+  },
+  "blog/kogo-chitat-chtoby-pogruzitsya-v-llm-inzheneriyu": {
+    "title": "Кого читать, чтобы погрузиться в LLM-инженерию?",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/kogo-chitat-chtoby-pogruzitsya-v-llm-inzheneriyu/"
+  },
+  "blog/komu-interesno-iskal-freymvorki-pod-razvitie-produktovyh-ai": {
+    "title": "Кому интересно, искал фреймворки под развитие продуктовых AI-Native команд",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/komu-interesno-iskal-freymvorki-pod-razvitie-produktovyh-ai/"
+  },
+  "blog/krutye-lektsiy-pro-arhitekturu-ai-prilozheniy-kubernetes-i-seti": {
+    "title": "Крутые лекций про архитектуру AI-приложений, Kubernetes и сети",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/krutye-lektsiy-pro-arhitekturu-ai-prilozheniy-kubernetes-i-seti/"
+  },
+  "blog/lean-analytics": {
+    "title": "Lean Analytics: правильный выбор метрики NSM",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/lean-analytics/"
+  },
+  "blog/lean-product-process-metodologiya-dostizheniya-product-market": {
+    "title": "Lean Product Process: Методология достижения Product-Market Fit",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/lean-product-process-metodologiya-dostizheniya-product-market/"
+  },
+  "blog/litellm-edinaya-tochka-raboty-so-vsemi-llm-modelyami": {
+    "title": "LiteLLM - единая точка работы со всеми LLM-моделями",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/litellm-edinaya-tochka-raboty-so-vsemi-llm-modelyami/"
+  },
+  "blog/lovushka-beskonechnogo-soglasovaniya-kak-soveschaniya": {
+    "title": "Ловушка бесконечного согласования: как совещания заменяют решения",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/lovushka-beskonechnogo-soglasovaniya-kak-soveschaniya/"
+  },
+  "blog/lovushka-investorskih-metrik-mrr-rastet-biznes-razrushaetsya": {
+    "title": "Ловушка инвесторских метрик: MRR растёт — бизнес разрушается",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/lovushka-investorskih-metrik-mrr-rastet-biznes-razrushaetsya/"
+  },
+  "blog/lovushka-lozhnyh-signalov-pmf-kogda-rost-na-grafike-ne-rost": {
+    "title": "Ловушка ложных сигналов PMF: когда рост на графике — не рост продукта",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/lovushka-lozhnyh-signalov-pmf-kogda-rost-na-grafike-ne-rost/"
+  },
+  "blog/lovushka-odnogo-segmenta-vlyublennost-v-pervyh-klientov": {
+    "title": "Ловушка одного сегмента: влюблённость в первых клиентов",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/lovushka-odnogo-segmenta-vlyublennost-v-pervyh-klientov/"
+  },
+  "blog/lovushka-parallelnyh-prioritetov-5-napravleniy-progress-ni-v": {
+    "title": "Ловушка параллельных приоритетов: 5 направлений = прогресс ни в одном",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/lovushka-parallelnyh-prioritetov-5-napravleniy-progress-ni-v/"
+  },
+  "blog/lovushka-prezhdevremennogo-masshtaba-bolshie-komandy-ubivayut": {
+    "title": "Ловушка преждевременного масштаба: большие команды убивают стартап",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/lovushka-prezhdevremennogo-masshtaba-bolshie-komandy-ubivayut/"
+  },
+  "blog/lovushka-rosta-lyuboy-tsenoy-skidki-razbavlyayut-kogorty": {
+    "title": "Ловушка роста любой ценой: скидки разбавляют когорты",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/lovushka-rosta-lyuboy-tsenoy-skidki-razbavlyayut-kogorty/"
+  },
+  "blog/lovushka-runway-davleniya": {
+    "title": "Ловушка Runway давления",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/lovushka-runway-davleniya/"
+  },
+  "blog/lovushka-tyazhelogo-tz-30-stranits-vmesto-2-nedelnogo-testa": {
+    "title": "Ловушка тяжёлого ТЗ: 30 страниц вместо 2-недельного теста",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/lovushka-tyazhelogo-tz-30-stranits-vmesto-2-nedelnogo-testa/"
+  },
+  "blog/minimum-lovable-product": {
+    "title": "Minimum Lovable Product",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/minimum-lovable-product/"
+  },
+  "blog/mom-test-intervyu-s-klientami": {
+    "title": "Mom Test: интервью с клиентами, которым можно верить",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/mom-test-intervyu-s-klientami/"
+  },
+  "blog/my-dobavili-15-fich-a-metriki-ne-vyrosli-lovushka": {
+    "title": "«Мы добавили 15 фич, а метрики не выросли» — ловушка функционального креатива",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/my-dobavili-15-fich-a-metriki-ne-vyrosli-lovushka/"
+  },
+  "blog/north-star-kak-ne-poteryat-produktovyy-fokus": {
+    "title": "North Star: как не потерять продуктовый фокус",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/north-star-kak-ne-poteryat-produktovyy-fokus/"
+  },
+  "blog/novye-materialy-po-sgr-schema-guided-reasoning": {
+    "title": "Новые материалы по SGR - Schema-Guided Reasoning",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/novye-materialy-po-sgr-schema-guided-reasoning/"
+  },
+  "blog/nsm-metric": {
+    "title": "North Star Metric: как не потерять продуктовый фокус",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/nsm-metric/"
+  },
+  "blog/o-chem-hochu-napisat-i-issledovat": {
+    "title": "О чем хочу написать и исследовать",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/o-chem-hochu-napisat-i-issledovat/"
+  },
+  "blog/o-rynkah": {
+    "title": "О рынках",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/o-rynkah/"
+  },
+  "blog/opportunity-solution-tree": {
+    "title": "Opportunity Solution Tree (дерево возможностей): от фич к результату",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/opportunity-solution-tree/"
+  },
+  "blog/otdelno-pro-backend": {
+    "title": "Отдельно про Backend",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/otdelno-pro-backend/"
+  },
+  "blog/paei-freymvork-kogo-brat-v-komandu-na-kazhdom-etape-razvitiya": {
+    "title": "PAEI фреймворк: кого брать в команду на каждом этапе развития продукта",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/paei-freymvork-kogo-brat-v-komandu-na-kazhdom-etape-razvitiya/"
+  },
+  "blog/pain-vs-customer_request": {
+    "title": "Боль vs просьба: как правильно отличать",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/pain-vs-customer_request/"
+  },
+  "blog/podsmotreno-v-inste-u-kanala": {
+    "title": "Подсмотрено в инсте у канала",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/podsmotreno-v-inste-u-kanala/"
+  },
+  "blog/poigralsya-na-vyhodnyh-s-avtopromtingom": {
+    "title": "Поигрался на выходных с автопромтингом",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/poigralsya-na-vyhodnyh-s-avtopromtingom/"
+  },
+  "blog/poleznye-nahodki-za-nedelyu": {
+    "title": "Полезные находки за неделю",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/poleznye-nahodki-za-nedelyu/"
+  },
+  "blog/premortem-analiz-proval-do-zapuska": {
+    "title": "Премортем: как найти причины провала проекта до его запуска",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/premortem-analiz-proval-do-zapuska/"
+  },
+  "blog/price-laddering-lestnitsa-tsen-poshagovyy-test-gotovnosti": {
+    "title": "Price Laddering / «Лестница цен»: пошаговый тест готовности платить при разных ценах",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/price-laddering-lestnitsa-tsen-poshagovyy-test-gotovnosti/"
+  },
+  "blog/prodolzhaya-vot-etu-istoriyu": {
+    "title": "Продолжая вот эту историю",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/prodolzhaya-vot-etu-istoriyu/"
+  },
+  "blog/product-architecture-framework-paf": {
+    "title": "Product Architecture Framework (PAF)",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/product-architecture-framework-paf/"
+  },
+  "blog/product-leaks-cold-start": {
+    "title": "50 продавцов и 0 покупателей: почему твой стартап завис и что делать",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/product-leaks-cold-start/"
+  },
+  "blog/product-leaks-feature-blast": {
+    "title": "Как убить фичегонку и вернуть продукту фокус",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/product-leaks-feature-blast/"
+  },
+  "blog/product-leaks-jtbd-blindness": {
+    "title": "«Мы добавили 15 фич, а метрики не выросли» — ловушка функционального креатива",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/product-leaks-jtbd-blindness/"
+  },
+  "blog/product-vs-brand": {
+    "title": "Бренд vs продукт: в чём разница и почему их постоянно путают",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/product-vs-brand/"
+  },
+  "blog/products-metrics-tree": {
+    "title": "Дерево продуктовых метрик: как построить с нуля за 15 минут — на интервью и в стартапе",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/products-metrics-tree/"
+  },
+  "blog/produktovye-resheniya-pri-neopredelennosti": {
+    "title": "Продуктовые решения при неопределённости: 8 методов для руководителя",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/produktovye-resheniya-pri-neopredelennosti/"
+  },
+  "blog/razmeschenie-za-1r-mes-dlya-vayb-koderov": {
+    "title": "Размещение за 1р/мес для вайб-кодеров",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/razmeschenie-za-1r-mes-dlya-vayb-koderov/"
+  },
+  "blog/retention-metrics": {
+    "title": "Retention как главный сигнал PMF: что смотреть и когда паниковать",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/retention-metrics/"
+  },
+  "blog/rol-pr-v-produktah": {
+    "title": "Роль PR в продуктах",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/rol-pr-v-produktah/"
+  },
+  "blog/roocode-spasenie-dlya-kompleksnyh-zadach": {
+    "title": "RooCode - спасение для комплексных задач",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/roocode-spasenie-dlya-kompleksnyh-zadach/"
+  },
+  "blog/sales-driven-roadmap-kogda-klient-platit-i-diktuet-produkt": {
+    "title": "Sales-driven roadmap: когда клиент платит и диктует продукт",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/sales-driven-roadmap-kogda-klient-platit-i-diktuet-produkt/"
+  },
+  "blog/solo-founder-saas-leads": {
+    "title": "Исследование - откуда взять первых лидов на SaaS СНГ в 2024-2026 годах",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/solo-founder-saas-leads/"
+  },
+  "blog/startup-growth-guideline": {
+    "title": "Как фаундеры B2B-SaaS искали клиентов в 2025-2026 году",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/startup-growth-guideline/"
+  },
+  "blog/startup-traffic": {
+    "title": "Где стартапу взять первых платящих, не сжигая деньги на рекламу",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/startup-traffic/"
+  },
+  "blog/startup-vs-corporation": {
+    "title": "Конкуренция с корпорациями",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/startup-vs-corporation/"
+  },
+  "blog/storm-ii-issledovanie-stanford": {
+    "title": "STORM от Стэнфорда: ИИ-исследование, которое сначала ищет точки зрения",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/storm-ii-issledovanie-stanford/"
+  },
+  "blog/temporal-vmesto-samodelnyh-sag": {
+    "title": "Temporal вместо самодельных саг",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/temporal-vmesto-samodelnyh-sag/"
+  },
+  "blog/u-nas-net-konkurentov-opasnyy-signal-ne-horoshaya-novost": {
+    "title": "«У нас нет конкурентов» — опасный сигнал, не хорошая новость",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/u-nas-net-konkurentov-opasnyy-signal-ne-horoshaya-novost/"
+  },
+  "blog/v-prodolzhenie-temy-10x-busta-skorosti-nashel-proekt-vibekanban": {
+    "title": "В продолжение темы 10x буста скорости, нашел проект vibekanban",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/v-prodolzhenie-temy-10x-busta-skorosti-nashel-proekt-vibekanban/"
+  },
+  "blog/value-of-information-hubbard": {
+    "title": "Ценность информации по Хаббарду: сколько стоит знать до решения",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/value-of-information-hubbard/"
+  },
+  "blog/van-westendorp": {
+    "title": "Van Westendorp: как найти идеальную цену для продукта",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/van-westendorp/"
+  },
+  "blog/wedge-strategy": {
+    "title": "Wedge-стратегия: узкий вход как путь к масштабу",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/wedge-strategy/"
+  },
+  "blog/zakonomernosti-upravleniya": {
+    "title": "Закономерности управления",
+    "type": "Блог",
+    "url": "https://aleksishmanov.ru/blog/zakonomernosti-upravleniya/"
+  },
+  "reviews/ai-app-sec-i-bezopasnost-ai-koda": {
+    "title": "AI App Sec и безопасность AI-кода",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/ai-app-sec-i-bezopasnost-ai-koda/"
+  },
+  "reviews/ai-kommitet": {
+    "title": "[AI коммитет -",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/ai-kommitet/"
+  },
+  "reviews/aktualnyy-setap-vayb-inzheneringa-eto-vse-vokrug-bazovogo": {
+    "title": "Актуальный сетап вайб-инженеринга. Это все вокруг базового ClaudeCode + LLM агентов",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/aktualnyy-setap-vayb-inzheneringa-eto-vse-vokrug-bazovogo/"
+  },
+  "reviews/codereview-s-pomoschyu-glm5-v-korp-proektah": {
+    "title": "CodeReview с помощью GLM5 в корп. проектах",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/codereview-s-pomoschyu-glm5-v-korp-proektah/"
+  },
+  "reviews/cursor-for-domain-ide": {
+    "title": "Cursor for [domain] IDE",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/cursor-for-domain-ide/"
+  },
+  "reviews/cursor-rules": {
+    "title": "CURSOR RULES",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/cursor-rules/"
+  },
+  "reviews/dspy-kompilyator-dlya-llm-zaprosov": {
+    "title": "DSPy - компилятор для LLM-запросов",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/dspy-kompilyator-dlya-llm-zaprosov/"
+  },
+  "reviews/esli-kto-ne-smotrel": {
+    "title": "Если кто не смотрел",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/esli-kto-ne-smotrel/"
+  },
+  "reviews/hosting-vayb-koding-proektov": {
+    "title": "Хостинг вайб-кодинг проектов",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/hosting-vayb-koding-proektov/"
+  },
+  "reviews/insaydy-postroenie-rag-ot-pobeditelya-rag-enterprice-chellenge": {
+    "title": "Инсайды построение RAG от победителя RAG Enterprice Chellenge (IlyaRice)",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/insaydy-postroenie-rag-ot-pobeditelya-rag-enterprice-chellenge/"
+  },
+  "reviews/kagent-opensource-platforma": {
+    "title": "Kagent - OpenSource платформа",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/kagent-opensource-platforma/"
+  },
+  "reviews/mbti-komanda-agentov-eksperiment-s-meta-promtingom": {
+    "title": "MBTI-команда агентов: эксперимент с мета-промтингом",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/mbti-komanda-agentov-eksperiment-s-meta-promtingom/"
+  },
+  "reviews/megabystryy-llm-shlyuz": {
+    "title": "Мегабыстрый LLM-шлюз",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/megabystryy-llm-shlyuz/"
+  },
+  "reviews/moy-nebolshoy-zabeg-v-razdel-autollm-privet-menya-k-neplohim": {
+    "title": "Мой небольшой забег в раздел AutoLLM привет меня к неплохим результатам",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/moy-nebolshoy-zabeg-v-razdel-autollm-privet-menya-k-neplohim/"
+  },
+  "reviews/na-novogodnih-vyhodnyh-nakonets-doshli-ruki-do-pet-proektov": {
+    "title": "На новогодних выходных наконец дошли руки до pet-проектов",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/na-novogodnih-vyhodnyh-nakonets-doshli-ruki-do-pet-proektov/"
+  },
+  "reviews/novyy-ii-proryv-hierarchical-reasoning-model-hrm": {
+    "title": "Новый ИИ-прорыв Hierarchical Reasoning Model (HRM)",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/novyy-ii-proryv-hierarchical-reasoning-model-hrm/"
+  },
+  "reviews/opea-eto-platforma-s-gotovymi-blyuprintami-enterprise-genai": {
+    "title": "OPEA — это платформа с готовыми блюпринтами enterprise GenAI-решений (например",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/opea-eto-platforma-s-gotovymi-blyuprintami-enterprise-genai/"
+  },
+  "reviews/repowise-sistemnaya-analitika-v-korporatsiyah": {
+    "title": "Repowise - системная аналитика в корпорациях",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/repowise-sistemnaya-analitika-v-korporatsiyah/"
+  },
+  "reviews/samoobuchenie-modeli-bez-dannyh": {
+    "title": "Самообучение модели без данных",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/samoobuchenie-modeli-bez-dannyh/"
+  },
+  "reviews/sgr-podhod-ili-kak-uluchshayut-kachestvo-v-llm-proektah": {
+    "title": "SGR подход или как улучшают качество в LLM-проектах",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/sgr-podhod-ili-kak-uluchshayut-kachestvo-v-llm-proektah/"
+  },
+  "reviews/shotgun-mgnovennaya-generatsiya-konteksta-dlya-llm": {
+    "title": "Shotgun — мгновенная генерация контекста для LLM",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/shotgun-mgnovennaya-generatsiya-konteksta-dlya-llm/"
+  },
+  "reviews/tri-mesyatsa-na-razrabotku": {
+    "title": "Три месяца на разработку",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/tri-mesyatsa-na-razrabotku/"
+  },
+  "reviews/vpn-korporativnyy-dostup-shifrovanie": {
+    "title": "VPN + корпоративный доступ + шифрование",
+    "type": "Разбор",
+    "url": "https://aleksishmanov.ru/reviews/vpn-korporativnyy-dostup-shifrovanie/"
+  },
+  "tools/activepieces-analog-zapier": {
+    "title": "Activepieces - аналог Zapier",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/activepieces-analog-zapier/"
+  },
+  "tools/affine-opensource-analog-notion-miro-google-docs": {
+    "title": "AFFiNE – OpenSource аналог Notion + Miro + Google Docs",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/affine-opensource-analog-notion-miro-google-docs/"
+  },
+  "tools/agents-observe": {
+    "title": "Agents-observe",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/agents-observe/"
+  },
+  "tools/airbyte": {
+    "title": "Airbyte",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/airbyte/"
+  },
+  "tools/airllm-proryv-v-zapuske-bolshih-modeley": {
+    "title": "AirLLM: прорыв в запуске больших моделей",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/airllm-proryv-v-zapuske-bolshih-modeley/"
+  },
+  "tools/amplication-opensource-platforma-dlya-avtomatizatsii-razrabotki": {
+    "title": "Amplication - OpenSource платформа для автоматизации разработки бэкенда (ссылка)",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/amplication-opensource-platforma-dlya-avtomatizatsii-razrabotki/"
+  },
+  "tools/angie-veb-server-novogo-pokoleniya": {
+    "title": "Angie — веб-сервер нового поколения",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/angie-veb-server-novogo-pokoleniya/"
+  },
+  "tools/apache-airflow-orkestratsiya-dannyh-i-avtomatizatsiya-etl": {
+    "title": "Apache Airflow – оркестрация данных и автоматизация ETL",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/apache-airflow-orkestratsiya-dannyh-i-avtomatizatsiya-etl/"
+  },
+  "tools/apache-spark-freymvork-dlya-obrabotki-bolshih-dannyh": {
+    "title": "Apache Spark – фреймворк для обработки больших данных",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/apache-spark-freymvork-dlya-obrabotki-bolshih-dannyh/"
+  },
+  "tools/apache-superset-platforma-dlya-vizualizatsii-dannyh": {
+    "title": "Apache Superset – платформа для визуализации данных",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/apache-superset-platforma-dlya-vizualizatsii-dannyh/"
+  },
+  "tools/appflowy-opensource-alternativa-notion-ssylka": {
+    "title": "AppFlowy - OpenSource альтернатива Notion (ссылка)",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/appflowy-opensource-alternativa-notion-ssylka/"
+  },
+  "tools/autogen-freymvork-dlya-sozdaniya-agentnyh-ai-sistem": {
+    "title": "AutoGen – фреймворк для создания агентных AI-систем",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/autogen-freymvork-dlya-sozdaniya-agentnyh-ai-sistem/"
+  },
+  "tools/awesome-llm-apps-baza-krutyh-ai-prilozheniy": {
+    "title": "Awesome LLM Apps– база крутых AI-приложений",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/awesome-llm-apps-baza-krutyh-ai-prilozheniy/"
+  },
+  "tools/awesome-self-hosted-open-source-instrumenty": {
+    "title": "Awesome Self-Hosted – open-source инструменты",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/awesome-self-hosted-open-source-instrumenty/"
+  },
+  "tools/catboost-biblioteka-gradientnogo-bustinga-ot-yandex": {
+    "title": "CatBoost – библиотека градиентного бустинга от Yandex",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/catboost-biblioteka-gradientnogo-bustinga-ot-yandex/"
+  },
+  "tools/chatwoot-otkrytaya-platforma-dlya-podderzhki-klientov": {
+    "title": "Chatwoot — открытая платформа для поддержки клиентов",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/chatwoot-otkrytaya-platforma-dlya-podderzhki-klientov/"
+  },
+  "tools/clickhouse-sverhbystraya-analiticheskaya-subd": {
+    "title": "ClickHouse – сверхбыстрая аналитическая СУБД",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/clickhouse-sverhbystraya-analiticheskaya-subd/"
+  },
+  "tools/cocoindex-freymvork-dlya-realnogo-vremeni-etl-payplaynov": {
+    "title": "CocoIndex – фреймворк для реального времени ETL-пайплайнов",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/cocoindex-freymvork-dlya-realnogo-vremeni-etl-payplaynov/"
+  },
+  "tools/codeabra-iai-personal-memory-engine": {
+    "title": "CodeAbra/iai-personal-memory-engine",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/codeabra-iai-personal-memory-engine/"
+  },
+  "tools/confluencegpt-ai-dostup-k-znaniyam-iz-confluence": {
+    "title": "ConfluenceGPT – AI-доступ к знаниям из Confluence",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/confluencegpt-ai-dostup-k-znaniyam-iz-confluence/"
+  },
+  "tools/context7": {
+    "title": "Context7",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/context7/"
+  },
+  "tools/contextgem-dev": {
+    "title": "ContextGem.dev –",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/contextgem-dev/"
+  },
+  "tools/continue-dev": {
+    "title": "Continue.dev",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/continue-dev/"
+  },
+  "tools/coolify-paas-platforma-s-open-source-kodom": {
+    "title": "Coolify – PaaS-платформа с open-source кодом",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/coolify-paas-platforma-s-open-source-kodom/"
+  },
+  "tools/create-gramio-gramio": {
+    "title": "create-gramio (GramIO)",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/create-gramio-gramio/"
+  },
+  "tools/cypress": {
+    "title": "Cypress",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/cypress/"
+  },
+  "tools/dask-masshtabiruemaya-obrabotka-dannyh-na-python": {
+    "title": "Dask – масштабируемая обработка данных на Python",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/dask-masshtabiruemaya-obrabotka-dannyh-na-python/"
+  },
+  "tools/daytona-bezopasnaya-infrastruktura-dlya-ai-agentov": {
+    "title": "Daytona — безопасная инфраструктура для AI-агентов",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/daytona-bezopasnaya-infrastruktura-dlya-ai-agentov/"
+  },
+  "tools/dbt-upravlenie-transformatsiey-dannyh-kak-kodom": {
+    "title": "dbt – управление трансформацией данных как кодом",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/dbt-upravlenie-transformatsiey-dannyh-kak-kodom/"
+  },
+  "tools/debezium-sistema-cdc-change-data-capture": {
+    "title": "Debezium – система CDC (Change Data Capture)",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/debezium-sistema-cdc-change-data-capture/"
+  },
+  "tools/deepwiki-generativnaya-entsiklopediya-znaniy": {
+    "title": "DeepWiki – генеративная энциклопедия знаний",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/deepwiki-generativnaya-entsiklopediya-znaniy/"
+  },
+  "tools/deepwiki-open-avtomaticheskiy-ai-generator-dokumentatsii-dlya": {
+    "title": "DeepWiki-Open — автоматический AI-генератор документации для репозиториев",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/deepwiki-open-avtomaticheskiy-ai-generator-dokumentatsii-dlya/"
+  },
+  "tools/devfleet": {
+    "title": "DevFleet",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/devfleet/"
+  },
+  "tools/dizayn-patterny": {
+    "title": "Дизайн-паттерны",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/dizayn-patterny/"
+  },
+  "tools/dspy-ai-freymvork-kotoryy-avtomatiziruet-rabotu-s-prompt-i": {
+    "title": "DSPY - AI фреймворк, который автоматизирует работу с Prompt и качеством за скобки",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/dspy-ai-freymvork-kotoryy-avtomatiziruet-rabotu-s-prompt-i/"
+  },
+  "tools/e2b-opensource-sreda-ispolneniya-koda-v-oblake": {
+    "title": "e2b – OpenSource среда исполнения кода в облаке",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/e2b-opensource-sreda-ispolneniya-koda-v-oblake/"
+  },
+  "tools/emilkowalski-skills": {
+    "title": "emilkowalski/skills",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/emilkowalski-skills/"
+  },
+  "tools/entire-eto-novyy-sloy-upravleniya-razrabotkoy-s-ai-agentami": {
+    "title": "Entire — это новый слой управления разработкой с AI‑агентами",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/entire-eto-novyy-sloy-upravleniya-razrabotkoy-s-ai-agentami/"
+  },
+  "tools/evidently-ai-kontrol-kachestva-ml-modeley": {
+    "title": "Evidently AI – контроль качества ML-моделей",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/evidently-ai-kontrol-kachestva-ml-modeley/"
+  },
+  "tools/featureform-upravlenie-ml-dannymi-i-fichami": {
+    "title": "FeatureForm – управление ML-данными и фичами",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/featureform-upravlenie-ml-dannymi-i-fichami/"
+  },
+  "tools/firecrawl-instrument-dlya-preobrazovaniya-veb-saytov-v-dannye": {
+    "title": "Firecrawl – инструмент для преобразования веб-сайтов в данные",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/firecrawl-instrument-dlya-preobrazovaniya-veb-saytov-v-dannye/"
+  },
+  "tools/flaml-avto-ml-bez-lishnih-zatrat": {
+    "title": "FLAML – авто-ML без лишних затрат",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/flaml-avto-ml-bez-lishnih-zatrat/"
+  },
+  "tools/flowise-opensource-no-code-platforma-dlya-sozdaniya-llm-agentov": {
+    "title": "Flowise - OpenSource no-code платформа для создания LLM-агентов (ссылка)",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/flowise-opensource-no-code-platforma-dlya-sozdaniya-llm-agentov/"
+  },
+  "tools/flutterflow-no-code-platforma-dlya-razrabotki-flutter": {
+    "title": "FlutterFlow - No-code платформа для разработки Flutter-приложений (ссылка)",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/flutterflow-no-code-platforma-dlya-razrabotki-flutter/"
+  },
+  "tools/formance-ledger-opensource-finansovyy-ledzher-dlya-fintech": {
+    "title": "Formance Ledger - OpenSource финансовый леджер для fintech-приложений от Formance Inc",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/formance-ledger-opensource-finansovyy-ledzher-dlya-fintech/"
+  },
+  "tools/frappe-framework-low-code-platforma-dlya-biznes-prilozheniy": {
+    "title": "Frappe Framework - low-code платформа для бизнес-приложений",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/frappe-framework-low-code-platforma-dlya-biznes-prilozheniy/"
+  },
+  "tools/gamma-ai-platforma-dlya-sozdaniya-prezentatsiy-dokumentov-i-veb": {
+    "title": "Gamma – AI-платформа для создания презентаций, документов и веб-сайтов (ссылка)",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/gamma-ai-platforma-dlya-sozdaniya-prezentatsiy-dokumentov-i-veb/"
+  },
+  "tools/gorules-no-code-platforma-dlya-biznes-logiki": {
+    "title": "GoRules – no-code платформа для бизнес-логики",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/gorules-no-code-platforma-dlya-biznes-logiki/"
+  },
+  "tools/graphiti-freymvork-dlya-vremennyh-grafov-znaniy": {
+    "title": "Graphiti - фреймворк для временных графов знаний",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/graphiti-freymvork-dlya-vremennyh-grafov-znaniy/"
+  },
+  "tools/graylog-instrument-dlya-filtratsii-i-analiza-logov": {
+    "title": "Graylog – инструмент для фильтрации и анализа логов",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/graylog-instrument-dlya-filtratsii-i-analiza-logov/"
+  },
+  "tools/guardrails": {
+    "title": "Guardrails",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/guardrails/"
+  },
+  "tools/hadoop-platforma-dlya-raspredelennoy-obrabotki-dannyh": {
+    "title": "Hadoop – платформа для распределённой обработки данных",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/hadoop-platforma-dlya-raspredelennoy-obrabotki-dannyh/"
+  },
+  "tools/headlong-opensource-avtonomnyy-ai-agent-s-postoyannoy-refleksiey": {
+    "title": "Headlong - OpenSource автономный AI-агент с постоянной рефлексией",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/headlong-opensource-avtonomnyy-ai-agent-s-postoyannoy-refleksiey/"
+  },
+  "tools/helicone-monitoring-zaprosov-ai-modeley": {
+    "title": "Helicone – мониторинг запросов AI моделей",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/helicone-monitoring-zaprosov-ai-modeley/"
+  },
+  "tools/helm-chart-avtomatizatsiya-razvertyvaniya-infry-v-kubernates": {
+    "title": "Helm Chart – автоматизация развертывания инфры в kubernates",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/helm-chart-avtomatizatsiya-razvertyvaniya-infry-v-kubernates/"
+  },
+  "tools/hermes-agent-nous-research": {
+    "title": "Hermes Agent (Nous Research)",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/hermes-agent-nous-research/"
+  },
+  "tools/heroui-generator-ui-dizayna-dlya-saas-i-startapov": {
+    "title": "HeroUI – генератор UI-дизайна для SaaS и стартапов",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/heroui-generator-ui-dizayna-dlya-saas-i-startapov/"
+  },
+  "tools/hugging-face-platforma-i-kommyuniti-dlya-raboty-nad-ai-ml": {
+    "title": "Hugging Face – платформа и коммьюнити для работы над AI, ML",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/hugging-face-platforma-i-kommyuniti-dlya-raboty-nad-ai-ml/"
+  },
+  "tools/hyperswitch-opensource-platezhnyy-orkestrator-dlya-multi": {
+    "title": "Hyperswitch - OpenSource платёжный оркестратор для мульти-процессинг роутинга от Juspay",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/hyperswitch-opensource-platezhnyy-orkestrator-dlya-multi/"
+  },
+  "tools/ishodniki-claudecode": {
+    "title": "Исходники ClaudeCode",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/ishodniki-claudecode/"
+  },
+  "tools/itemsjs-fasadnyy-poisk-dlya-faas-platform": {
+    "title": "ItemsJS - фасадный поиск для FaaS платформ",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/itemsjs-fasadnyy-poisk-dlya-faas-platform/"
+  },
+  "tools/jaeger-treysing-dlya-mikroservisov": {
+    "title": "Jaeger – трейсинг для микросервисов",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/jaeger-treysing-dlya-mikroservisov/"
+  },
+  "tools/kafbat-veb-interfeys-dlya-upravleniya-apache-kafka": {
+    "title": "Kafbat – веб-интерфейс для управления Apache Kafka",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/kafbat-veb-interfeys-dlya-upravleniya-apache-kafka/"
+  },
+  "tools/kafka-broker-soobscheniy-dlya-vysokonagruzhennyh-sistem": {
+    "title": "Kafka – брокер сообщений для высоконагруженных систем",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/kafka-broker-soobscheniy-dlya-vysokonagruzhennyh-sistem/"
+  },
+  "tools/kestra-nifi-avtomatizatsiya-api-i-potokov-dannyh": {
+    "title": "Kestra & NiFi – автоматизация API и потоков данных",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/kestra-nifi-avtomatizatsiya-api-i-potokov-dannyh/"
+  },
+  "tools/kibana-instrument-dlya-analiza-logov-i-produktovyh-metrik": {
+    "title": "Kibana – инструмент для анализа логов и продуктовых метрик",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/kibana-instrument-dlya-analiza-logov-i-produktovyh-metrik/"
+  },
+  "tools/kogda-primenyat": {
+    "title": "Когда применять",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/kogda-primenyat/"
+  },
+  "tools/kong-api-shlyuz-i-servisnaya-platforma": {
+    "title": "Kong – API-шлюз и сервисная платформа",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/kong-api-shlyuz-i-servisnaya-platforma/"
+  },
+  "tools/kserve-platforma-dlya-razvertyvaniya-modeley": {
+    "title": "KServe – платформа для развертывания моделей",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/kserve-platforma-dlya-razvertyvaniya-modeley/"
+  },
+  "tools/label-studio-platforma-dlya-razmetki-dannyh": {
+    "title": "Label Studio– платформа для разметки данных",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/label-studio-platforma-dlya-razmetki-dannyh/"
+  },
+  "tools/ladybugdb-opensource-grafovaya-bd": {
+    "title": "LadybugDB - OpenSource графовая БД",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/ladybugdb-opensource-grafovaya-bd/"
+  },
+  "tools/lago-flexprice-opensource-servisy-raboty-s-finansami": {
+    "title": "LAGO / FlexPrice – OpenSource сервисы работы с финансами",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/lago-flexprice-opensource-servisy-raboty-s-finansami/"
+  },
+  "tools/lancedb-opensource-vektornaya-bd": {
+    "title": "LanceDB - OpenSource векторная БД",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/lancedb-opensource-vektornaya-bd/"
+  },
+  "tools/langfuse-platforma-dlya-monitoringa-llm-prilozheniy-iz-korobki": {
+    "title": "Langfuse – платформа для мониторинга LLM-приложений из коробки",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/langfuse-platforma-dlya-monitoringa-llm-prilozheniy-iz-korobki/"
+  },
+  "tools/lightgbm-bystraya-biblioteka-gradientnogo-bustinga": {
+    "title": "LightGBM – быстрая библиотека градиентного бустинга",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/lightgbm-bystraya-biblioteka-gradientnogo-bustinga/"
+  },
+  "tools/litellm-universalnyy-proksi-dlya-llm-api": {
+    "title": "LiteLLM – универсальный прокси для LLM API",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/litellm-universalnyy-proksi-dlya-llm-api/"
+  },
+  "tools/llamaindex-dvizhok-dlya-korporativnogo-ai-poiska": {
+    "title": "LlamaIndex – движок для корпоративного AI-поиска",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/llamaindex-dvizhok-dlya-korporativnogo-ai-poiska/"
+  },
+  "tools/locust-nagruzochnoe-testirovanie-api-i-llm": {
+    "title": "Locust – нагрузочное тестирование API и LLM",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/locust-nagruzochnoe-testirovanie-api-i-llm/"
+  },
+  "tools/mcp-atlassian-mcp-server-dlya-jira-i-confluence": {
+    "title": "MCP Atlassian– MCP-сервер для Jira и Confluence",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/mcp-atlassian-mcp-server-dlya-jira-i-confluence/"
+  },
+  "tools/megaparse-tochnyy-parser-dokumentov-dlya-llm-i-rag": {
+    "title": "MegaParse — точный парсер документов для LLM и RAG",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/megaparse-tochnyy-parser-dokumentov-dlya-llm-i-rag/"
+  },
+  "tools/mem0-ai-proekt-kontekstnoy-pamyati-dlya-ai-agentov": {
+    "title": "Mem0.ai – проект контекстной памяти для AI-агентов",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/mem0-ai-proekt-kontekstnoy-pamyati-dlya-ai-agentov/"
+  },
+  "tools/memoire-memi-dizayn-sloy-dlya-ii-agentov-na-claude-code": {
+    "title": "Memoire (Memi) - дизайн слой для ИИ-агентов на Claude Code",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/memoire-memi-dizayn-sloy-dlya-ii-agentov-na-claude-code/"
+  },
+  "tools/memphis-dev-message-broker-novogo-pokoleniya": {
+    "title": "Memphis.dev – message broker нового поколения",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/memphis-dev-message-broker-novogo-pokoleniya/"
+  },
+  "tools/metamcp-plexusmcp-fastmcp": {
+    "title": "MetaMCP & PlexusMCP & FastMCP",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/metamcp-plexusmcp-fastmcp/"
+  },
+  "tools/mindsdb-ai-vnutri-vashey-bazy-dannyh": {
+    "title": "MindsDB – AI внутри вашей базы данных",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/mindsdb-ai-vnutri-vashey-bazy-dannyh/"
+  },
+  "tools/mlflow-platforma-dlya-upravleniya-zhiznennym-tsiklom-ml-modeley": {
+    "title": "MLflow – платформа для управления жизненным циклом ML-моделей",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/mlflow-platforma-dlya-upravleniya-zhiznennym-tsiklom-ml-modeley/"
+  },
+  "tools/n8n-avtomatizatsiya-protsessov-ssylka": {
+    "title": "N8N - автоматизация процессов ( ссылка )",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/n8n-avtomatizatsiya-protsessov-ssylka/"
+  },
+  "tools/n8n-workflows": {
+    "title": "n8n-workflows –",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/n8n-workflows/"
+  },
+  "tools/nacre-otkrytyy-kontekstnyy-sloy-dlya-agentov-s-pravami-dostupa": {
+    "title": "Nacre - открытый контекстный слой для агентов с правами доступа",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/nacre-otkrytyy-kontekstnyy-sloy-dlya-agentov-s-pravami-dostupa/"
+  },
+  "tools/neo4j-grafovaya-baza-dannyh-dlya-raboty-so-svyazyami-i": {
+    "title": "Neo4j — графовая база данных для работы со связями и сложными структурами данных",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/neo4j-grafovaya-baza-dannyh-dlya-raboty-so-svyazyami-i/"
+  },
+  "tools/nocodb-alternativa-airtable-s-otkrytym-ishodnym-kodom-ssylka": {
+    "title": "NocoDB – Альтернатива Airtable с открытым исходным кодом (ссылка)",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/nocodb-alternativa-airtable-s-otkrytym-ishodnym-kodom-ssylka/"
+  },
+  "tools/nocodb-opensource-alternativa-airtable-ssylka": {
+    "title": "NocoDB - OpenSource альтернатива Airtable (ссылка)",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/nocodb-opensource-alternativa-airtable-ssylka/"
+  },
+  "tools/open-collective-platforma-dlya-finansirovaniya-open-source": {
+    "title": "Open Collective– платформа для финансирования open source проектов",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/open-collective-platforma-dlya-finansirovaniya-open-source/"
+  },
+  "tools/openmeter-kontrol-i-tarifikatsiya-api-zaprosov": {
+    "title": "OpenMeter – контроль и тарификация API-запросов",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/openmeter-kontrol-i-tarifikatsiya-api-zaprosov/"
+  },
+  "tools/openobserve-otkrytaya-observability-platforma-dlya-logov-metrik": {
+    "title": "OpenObserve - открытая observability-платформа для логов, метрик, трейсов и RUM",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/openobserve-otkrytaya-observability-platforma-dlya-logov-metrik/"
+  },
+  "tools/openreplay-platforma-dlya-analitiki-povedeniya-polzovateley": {
+    "title": "OpenReplay – платформа для аналитики поведения пользователей",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/openreplay-platforma-dlya-analitiki-povedeniya-polzovateley/"
+  },
+  "tools/otdelno-pro-vsyakie-ai-prod-platformy-dlya-bystryh-pilotov": {
+    "title": "Отдельно про всякие AI-Prod платформы для быстрых пилотов",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/otdelno-pro-vsyakie-ai-prod-platformy-dlya-bystryh-pilotov/"
+  },
+  "tools/outline": {
+    "title": "Outline",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/outline/"
+  },
+  "tools/pipedream-platforma-integratsiy-i-avtomatizatsii": {
+    "title": "Pipedream – платформа интеграций и автоматизации",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/pipedream-platforma-integratsiy-i-avtomatizatsii/"
+  },
+  "tools/planka-gotovyy-backend-dlya-task-menedzhmenta": {
+    "title": "Planka – готовый backend для таск-менеджмента",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/planka-gotovyy-backend-dlya-task-menedzhmenta/"
+  },
+  "tools/poka-vremennaya-podborka-proektov-za-kotorymi-nablyudayu": {
+    "title": "Пока временная подборка проектов, за которыми наблюдаю",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/poka-vremennaya-podborka-proektov-za-kotorymi-nablyudayu/"
+  },
+  "tools/popmelt-vkusovoy-sloy-poverh-ai-koderov": {
+    "title": "Popmelt — «вкусовой» слой поверх AI‑кодеров",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/popmelt-vkusovoy-sloy-poverh-ai-koderov/"
+  },
+  "tools/posthog-analitika-produkta-i-fichey-bez-vneshnih-zavisimostey": {
+    "title": "PostHog – аналитика продукта и фичей без внешних зависимостей",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/posthog-analitika-produkta-i-fichey-bez-vneshnih-zavisimostey/"
+  },
+  "tools/pr-agent-kodus": {
+    "title": "PR-agent / Kodus",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/pr-agent-kodus/"
+  },
+  "tools/prometheus-sbor-metrik-sre": {
+    "title": "Prometheus – сбор метрик SRE",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/prometheus-sbor-metrik-sre/"
+  },
+  "tools/rabbitmq-broker-soobscheniy-dlya-upravleniya-ocheredyami": {
+    "title": "RabbitMQ – брокер сообщений для управления очередями",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/rabbitmq-broker-soobscheniy-dlya-upravleniya-ocheredyami/"
+  },
+  "tools/ragas-testirovanie-kachestva-otvetov-llm": {
+    "title": "Ragas – тестирование качества ответов LLM",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/ragas-testirovanie-kachestva-otvetov-llm/"
+  },
+  "tools/repowise": {
+    "title": "Repowise",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/repowise/"
+  },
+  "tools/ruflo-byvshiy-claude-flow": {
+    "title": "Ruflo (бывший Claude Flow) -",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/ruflo-byvshiy-claude-flow/"
+  },
+  "tools/scikit-learn-sklearn-biblioteka-mashinnogo-obucheniya": {
+    "title": "Scikit-learn (sklearn) – библиотека машинного обучения",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/scikit-learn-sklearn-biblioteka-mashinnogo-obucheniya/"
+  },
+  "tools/semgrep": {
+    "title": "Semgrep",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/semgrep/"
+  },
+  "tools/serena-mcpiz-korobki-vse-ai-agenty-ploho-rabotayut-s-bolshoy": {
+    "title": "Serena MCPИз коробки все AI-агенты плохо работают с большой кодовой базой",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/serena-mcpiz-korobki-vse-ai-agenty-ploho-rabotayut-s-bolshoy/"
+  },
+  "tools/shannon-avtonomnyy-ai-pentester-dlya-poiska-i-vosproizvedeniya": {
+    "title": "Shannon — автономный AI‑пентестер для поиска и воспроизведения уязвимостей",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/shannon-avtonomnyy-ai-pentester-dlya-poiska-i-vosproizvedeniya/"
+  },
+  "tools/sistema-dlya-dizayna-ai-prilozheniy": {
+    "title": "Система для дизайна AI-приложений",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/sistema-dlya-dizayna-ai-prilozheniy/"
+  },
+  "tools/spec-kit-toolkit-ot-github-dlya-spec-driven-development-sdd": {
+    "title": "Spec Kit –Toolkit от GitHub для Spec-Driven Development (SDD)",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/spec-kit-toolkit-ot-github-dlya-spec-driven-development-sdd/"
+  },
+  "tools/speckitty-produktovaya-evolyutsiya-speckit-driven-development": {
+    "title": "Speckitty - продуктовая эволюция SpecKit Driven Development",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/speckitty-produktovaya-evolyutsiya-speckit-driven-development/"
+  },
+  "tools/spenhouet-confluence-markdown-exporter": {
+    "title": "Spenhouet/confluence-markdown-exporter",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/spenhouet-confluence-markdown-exporter/"
+  },
+  "tools/strapi-kastomiziruemaya-open-source-headless-cms": {
+    "title": "Strapi — кастомизируемая Open Source headless CMS",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/strapi-kastomiziruemaya-open-source-headless-cms/"
+  },
+  "tools/supabase-opensource-alternativa-firebase-ssylka": {
+    "title": "Supabase - OpenSource альтернатива Firebase (ссылка)",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/supabase-opensource-alternativa-firebase-ssylka/"
+  },
+  "tools/superpowers": {
+    "title": "Superpowers",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/superpowers/"
+  },
+  "tools/superset-sh": {
+    "title": "Superset.sh —",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/superset-sh/"
+  },
+  "tools/telethon": {
+    "title": "Telethon",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/telethon/"
+  },
+  "tools/temporal-orkestratsiya-zadach-v-raspredelennyh-sistemah": {
+    "title": "Temporal – оркестрация задач в распределённых системах",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/temporal-orkestratsiya-zadach-v-raspredelennyh-sistemah/"
+  },
+  "tools/tilt-udobnyy-instrument-dlya-mikroservisov": {
+    "title": "Tilt – удобный инструмент для микросервисов",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/tilt-udobnyy-instrument-dlya-mikroservisov/"
+  },
+  "tools/tinytroupe-multi-agentnaya-simulyatsiya-lyudey-dlya-llm": {
+    "title": "TinyTroupe — мульти-агентная симуляция людей для LLM-экспериментов",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/tinytroupe-multi-agentnaya-simulyatsiya-lyudey-dlya-llm/"
+  },
+  "tools/tl-dv-ai-assistent-dlya-zapisi-i-rasshifrovki-vstrech-ssylka": {
+    "title": "tl;dv – AI-ассистент для записи и расшифровки встреч (ссылка)",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/tl-dv-ai-assistent-dlya-zapisi-i-rasshifrovki-vstrech-ssylka/"
+  },
+  "tools/toddle-opensource-vizualnyy-freymvork-dlya-veb-razrabotki-ssylka": {
+    "title": "Toddle - OpenSource визуальный фреймворк для веб-разработки ( ссылка )",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/toddle-opensource-vizualnyy-freymvork-dlya-veb-razrabotki-ssylka/"
+  },
+  "tools/transkribatsiya-audio": {
+    "title": "Транскрибация аудио",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/transkribatsiya-audio/"
+  },
+  "tools/trigger-dev-opensource-platforma-dlya-fonovyh-zadach-ssylka": {
+    "title": "Trigger.dev - OpenSource платформа для фоновых задач (ссылка)",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/trigger-dev-opensource-platforma-dlya-fonovyh-zadach-ssylka/"
+  },
+  "tools/tyk-opensource-api-gateway-ssylka": {
+    "title": "Tyk - OpenSource API Gateway (ссылка)",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/tyk-opensource-api-gateway-ssylka/"
+  },
+  "tools/typebot-prostoy-konstruktor-vizualnyh-chat-botov": {
+    "title": "TypeBot – простой конструктор визуальных чат-ботов",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/typebot-prostoy-konstruktor-vizualnyh-chat-botov/"
+  },
+  "tools/typesense-bystryy-i-udobnyy-poisk-po-dannym": {
+    "title": "Typesense – быстрый и удобный поиск по данным",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/typesense-bystryy-i-udobnyy-poisk-po-dannym/"
+  },
+  "tools/unstructured-io-instrument-dlya-podgotovki-dannyh-dlya-ai": {
+    "title": "Unstructured.io – инструмент для подготовки данных для AI",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/unstructured-io-instrument-dlya-podgotovki-dannyh-dlya-ai/"
+  },
+  "tools/vast-ai-oblachnyy-servis-arendy-gpu": {
+    "title": "Vast.ai – облачный сервис аренды GPU",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/vast-ai-oblachnyy-servis-arendy-gpu/"
+  },
+  "tools/vector-vysokoproizvoditelnyy-konveyer-dannyh-nablyudaemosti": {
+    "title": "Vector - высокопроизводительный конвейер данных наблюдаемости",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/vector-vysokoproizvoditelnyy-konveyer-dannyh-nablyudaemosti/"
+  },
+  "tools/weaviate-vektornaya-baza-dannyh-dlya-ai-produktov": {
+    "title": "Weaviate – векторная база данных для AI-продуктов",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/weaviate-vektornaya-baza-dannyh-dlya-ai-produktov/"
+  },
+  "tools/wikijs": {
+    "title": "WikiJS",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/wikijs/"
+  },
+  "tools/wrenai-mindsdb": {
+    "title": "WrenAI+ MindsDB",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/wrenai-mindsdb/"
+  },
+  "tools/ydb-yandex-database": {
+    "title": "YDB (Yandex Database)",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/ydb-yandex-database/"
+  },
+  "tools/zenbase-ai-avtomatizirovannaya-optimizatsiya-promptov-dlya-llm": {
+    "title": "Zenbase AI — автоматизированная оптимизация промптов для LLM",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/zenbase-ai-avtomatizirovannaya-optimizatsiya-promptov-dlya-llm/"
+  },
+  "tools/zitadel-upravlenie-polzovatelyami-i-dostupom-kak-servis": {
+    "title": "ZITADEL – управление пользователями и доступом как сервис",
+    "type": "Инструмент",
+    "url": "https://aleksishmanov.ru/tools/zitadel-upravlenie-polzovatelyami-i-dostupom-kak-servis/"
+  },
+  "prompts/4p-poitioning-consultant": {
+    "title": "4P распаковка позиционирования",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/4p-poitioning-consultant/"
+  },
+  "prompts/aarrr-funnel": {
+    "title": "Проектирование AARRR воронки",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/aarrr-funnel/"
+  },
+  "prompts/ab-experiment-consultant": {
+    "title": "Проектирование A/B",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/ab-experiment-consultant/"
+  },
+  "prompts/ach-alternativnye-gipotezy": {
+    "title": "Альтернативные гипотезы для анализа ACH",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/ach-alternativnye-gipotezy/"
+  },
+  "prompts/ai-intervyuer": {
+    "title": "AI-интервьюер",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/ai-intervyuer/"
+  },
+  "prompts/ai-marketolog-consultant": {
+    "title": "AI-маркетолог",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/ai-marketolog-consultant/"
+  },
+  "prompts/ai-stretegy-master": {
+    "title": "Эксперт в AI-продуктах",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/ai-stretegy-master/"
+  },
+  "prompts/analiz-nishevyh-vozmozhnostej": {
+    "title": "Анализ нишевых возможностей",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/analiz-nishevyh-vozmozhnostej/"
+  },
+  "prompts/analiz-reklamnyh-kreativov": {
+    "title": "Эксперт по анализу рекламных креативов",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/analiz-reklamnyh-kreativov/"
+  },
+  "prompts/article-1": {
+    "title": "BluePrint консультант",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/article-1/"
+  },
+  "prompts/article-2": {
+    "title": "PRD - simplify",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/article-2/"
+  },
+  "prompts/article-4": {
+    "title": "Методика оценки команды",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/article-4/"
+  },
+  "prompts/article": {
+    "title": "Исследование рынка - ТОП-10",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/article/"
+  },
+  "prompts/bft-prompt": {
+    "title": "БФТ-помощник",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/bft-prompt/"
+  },
+  "prompts/competitors-analysis-prompt": {
+    "title": "Конкурентный анализ",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/competitors-analysis-prompt/"
+  },
+  "prompts/consumer-context-channels-prompt": {
+    "title": "Каналы и точки касания в контексте потребителя",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/consumer-context-channels-prompt/"
+  },
+  "prompts/customer-context-prompt": {
+    "title": "Единый контекст потребителя",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/customer-context-prompt/"
+  },
+  "prompts/distribution-consultant": {
+    "title": "Выбор каналов дистрибуции",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/distribution-consultant/"
+  },
+  "prompts/epic-writer": {
+    "title": "Формализация эпиков",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/epic-writer/"
+  },
+  "prompts/featurecanvas-helper": {
+    "title": "Описание продуктовой фичи",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/featurecanvas-helper/"
+  },
+  "prompts/fvp-product-unpacking": {
+    "title": "Распаковка продукта по ФВП (Факт–Выгода–Преимущество)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/fvp-product-unpacking/"
+  },
+  "prompts/gantt-assistant": {
+    "title": "Gantt planner",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/gantt-assistant/"
+  },
+  "prompts/generatsiya-reklamnyh-kreativov": {
+    "title": "Эксперт по генерации рекламных креативов с нуля",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/generatsiya-reklamnyh-kreativov/"
+  },
+  "prompts/human-like-style": {
+    "title": "Генерация постов",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/human-like-style/"
+  },
+  "prompts/interaktivnaya-html-prezentaciya": {
+    "title": "Интерактивная HTML-презентация",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/interaktivnaya-html-prezentaciya/"
+  },
+  "prompts/issledovanie-i-proverka-faktov": {
+    "title": "Исследование и проверка фактов",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/issledovanie-i-proverka-faktov/"
+  },
+  "prompts/it-rekruter": {
+    "title": "IT-рекрутер",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/it-rekruter/"
+  },
+  "prompts/mbdi-advocate": {
+    "title": "Адвокат (INFJ)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/mbdi-advocate/"
+  },
+  "prompts/mbdi-executive": {
+    "title": "Администратор (ESTJ)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/mbdi-executive/"
+  },
+  "prompts/mbdi-logician": {
+    "title": "Логик (INTP)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/mbdi-logician/"
+  },
+  "prompts/mbdi-mediator": {
+    "title": "Посредний (INFP)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/mbdi-mediator/"
+  },
+  "prompts/mbti-adventure": {
+    "title": "Исследователь (ISFP)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/mbti-adventure/"
+  },
+  "prompts/mbti-architect": {
+    "title": "Архитектор (INTJ)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/mbti-architect/"
+  },
+  "prompts/mbti-campaigner": {
+    "title": "Активист (ENFP)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/mbti-campaigner/"
+  },
+  "prompts/mbti-commander": {
+    "title": "Коммандир (ENTJ)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/mbti-commander/"
+  },
+  "prompts/mbti-consul": {
+    "title": "Консул (ESFJ)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/mbti-consul/"
+  },
+  "prompts/mbti-debater": {
+    "title": "Полемист - ENTP",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/mbti-debater/"
+  },
+  "prompts/mbti-defender": {
+    "title": "Защитник (ISFJ)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/mbti-defender/"
+  },
+  "prompts/mbti-enterpreneur": {
+    "title": "Предприниматель (ESTP)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/mbti-enterpreneur/"
+  },
+  "prompts/mbti-entertrainer": {
+    "title": "Артист (ESFP)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/mbti-entertrainer/"
+  },
+  "prompts/mbti-logistician": {
+    "title": "Логист (ISTJ)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/mbti-logistician/"
+  },
+  "prompts/mbti-protagonist": {
+    "title": "Протагонист (ENFJ)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/mbti-protagonist/"
+  },
+  "prompts/mbti-virtuoso": {
+    "title": "Виртуоз (ISTP)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/mbti-virtuoso/"
+  },
+  "prompts/mermaid-customer-context": {
+    "title": "Mermaid для единого контекста потребителя",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/mermaid-customer-context/"
+  },
+  "prompts/nsm-consultant": {
+    "title": "NSM - консультант",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/nsm-consultant/"
+  },
+  "prompts/ost-consultant": {
+    "title": "OST (Opportunity Solution Tree)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/ost-consultant/"
+  },
+  "prompts/otslezhivanie-byudzhetov": {
+    "title": "Отслеживание бюджетов",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/otslezhivanie-byudzhetov/"
+  },
+  "prompts/outcome-driven-innovation-prompt": {
+    "title": "Outcome-Driven Innovation",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/outcome-driven-innovation-prompt/"
+  },
+  "prompts/partner-dlya-mozgovogo-shturma": {
+    "title": "Партнер для мозгового штурма",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/partner-dlya-mozgovogo-shturma/"
+  },
+  "prompts/prd-decompose": {
+    "title": "Декомпозиция PRD -> Tasks",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/prd-decompose/"
+  },
+  "prompts/prd-generator": {
+    "title": "PRD помощник",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/prd-generator/"
+  },
+  "prompts/product-discovery-prompt": {
+    "title": "Product Discovery ассистент",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/product-discovery-prompt/"
+  },
+  "prompts/project-manager": {
+    "title": "Project Manager",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/project-manager/"
+  },
+  "prompts/prompt-engineer": {
+    "title": "Prompt Engineer",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/prompt-engineer/"
+  },
+  "prompts/rat-prompt": {
+    "title": "RAT - анализ продуктовых рисков запуска",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/rat-prompt/"
+  },
+  "prompts/resursnoe-planirovanie": {
+    "title": "Ресурсное планирование",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/resursnoe-planirovanie/"
+  },
+  "prompts/rory-sutherland-marketing-interrogation": {
+    "title": "Маркетинговый допрос (Rory Sutherland)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/rory-sutherland-marketing-interrogation/"
+  },
+  "prompts/segmentation": {
+    "title": "Сегментация ЦА",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/segmentation/"
+  },
+  "prompts/seq-consultant": {
+    "title": "SEQ-консультант",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/seq-consultant/"
+  },
+  "prompts/six-thinking-hats": {
+    "title": "Методология 6 шляп",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/six-thinking-hats/"
+  },
+  "prompts/social-media-carousel-art-director": {
+    "title": "Авторские карусели для соцсетей",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/social-media-carousel-art-director/"
+  },
+  "prompts/social-media-carousel": {
+    "title": "Генератор вирусных каруселей для соцсетей",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/social-media-carousel/"
+  },
+  "prompts/status-vstrecha": {
+    "title": "Статус-встреча",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/status-vstrecha/"
+  },
+  "prompts/storm-issledovanie-po-perspektivam": {
+    "title": "Исследование по перспективам в стиле STORM",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/storm-issledovanie-po-perspektivam/"
+  },
+  "prompts/sysdesigner": {
+    "title": "Архитектура (системный дизайн)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/sysdesigner/"
+  },
+  "prompts/tam-sam-som": {
+    "title": "TAM / SAM / SOM",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/tam-sam-som/"
+  },
+  "prompts/threads-expert-content": {
+    "title": "Threads — экспертный контент",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/threads-expert-content/"
+  },
+  "prompts/unit-economics-comsultant": {
+    "title": "Проектирование UNIT-экономики",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/unit-economics-comsultant/"
+  },
+  "prompts/uvp-consultant": {
+    "title": "Консультант распаковки ценности",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/uvp-consultant/"
+  },
+  "prompts/vektor-pitch-mentor": {
+    "title": "Вектор — ментор-архитектор экспертной презентации (ENTJ)",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/vektor-pitch-mentor/"
+  },
+  "prompts/vibe-coding-task": {
+    "title": "Доработка в проекте",
+    "type": "Промт",
+    "url": "https://aleksishmanov.ru/prompts/vibe-coding-task/"
+  },
+  "slides/claude-desktop-zai-macos": {
+    "title": "Claude Desktop с Китайскими моделями",
+    "type": "Презентация",
+    "url": "https://aleksishmanov.ru/slides/claude-desktop-zai-macos/"
+  },
+  "slides/cortex-second-brain": {
+    "title": "Второй мозг руководителя",
+    "type": "Презентация",
+    "url": "https://aleksishmanov.ru/slides/cortex-second-brain/"
+  },
+  "slides/okr-quarter-planning": {
+    "title": "Планирование квартала за час разговора с ИИ",
+    "type": "Презентация",
+    "url": "https://aleksishmanov.ru/slides/okr-quarter-planning/"
+  },
+  "slides/po-morning-brief": {
+    "title": "Утренняя планёрка с ИИ-агентом",
+    "type": "Презентация",
+    "url": "https://aleksishmanov.ru/slides/po-morning-brief/"
+  },
+  "slides/po-news-feed": {
+    "title": "Лента вместо 100500 чатов",
+    "type": "Презентация",
+    "url": "https://aleksishmanov.ru/slides/po-news-feed/"
+  },
+  "slides/po-workspace-bft-plugin": {
+    "title": "БФТ под управлением руководителя",
+    "type": "Презентация",
+    "url": "https://aleksishmanov.ru/slides/po-workspace-bft-plugin/"
+  },
+  "slides/sprint-blockers-report": {
+    "title": "Где и почему команда разработки была заблокирована",
+    "type": "Презентация",
+    "url": "https://aleksishmanov.ru/slides/sprint-blockers-report/"
+  },
+  "slides/sprint-business-report": {
+    "title": "Бизнес-отчёт спринта: ценность от целей квартала",
+    "type": "Презентация",
+    "url": "https://aleksishmanov.ru/slides/sprint-business-report/"
+  },
+  "slides/sprint-under-manager": {
+    "title": "Спринты под управлением руководителя",
+    "type": "Презентация",
+    "url": "https://aleksishmanov.ru/slides/sprint-under-manager/"
+  },
+  "cases/b2b-platform-1": {
+    "title": "[Результат первого запуска: что изменилось и насколько]",
+    "type": "Кейс",
+    "url": "https://aleksishmanov.ru/cases/b2b-platform-1/"
+  },
+  "cases/b2b-platform-2": {
+    "title": "[Результат второго запуска одной фразой с числом]",
+    "type": "Кейс",
+    "url": "https://aleksishmanov.ru/cases/b2b-platform-2/"
+  },
+  "cases/b2b-platform-3": {
+    "title": "[Результат третьего запуска одной фразой с числом]",
+    "type": "Кейс",
+    "url": "https://aleksishmanov.ru/cases/b2b-platform-3/"
+  },
+  "cases/b2b-platform-4": {
+    "title": "[Результат четвёртого запуска одной фразой с числом]",
+    "type": "Кейс",
+    "url": "https://aleksishmanov.ru/cases/b2b-platform-4/"
+  }
+}

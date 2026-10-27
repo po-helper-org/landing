@@ -1,0 +1,16 @@
+---
+import { SITE, href } from '../lib/site';
+interface Props { current?: 'home' | 'method' | 'widgets' }
+const { current } = Astro.props;
+---
+<header class="site-header">
+  <div class="site-header__bar">
+    <a class="brand" href={href('/')}>{SITE.name}</a>
+    <nav class="site-nav" aria-label="Разделы подсайта">
+      <a href={href('/method/')} aria-current={current === 'method' ? 'page' : undefined}>Методология</a>
+      <a href={href('/widgets/')} aria-current={current === 'widgets' ? 'page' : undefined}>Виджеты</a>
+      <a class="site-nav__back" href={SITE.origin + '/'}>← aleksishmanov.ru</a>
+    </nav>
+    <a class="btn btn--small" href={SITE.contact.href} target="_blank" rel="noopener">{SITE.contact.label}</a>
+  </div>
+</header>

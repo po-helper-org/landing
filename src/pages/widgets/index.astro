@@ -1,0 +1,40 @@
+---
+import Base from '../../layouts/Base.astro';
+import WidgetCard from '../../components/WidgetCard.astro';
+import { allWidgets, groupsByStage, isPrivate } from '../../lib/widgets';
+import { SITE } from '../../lib/site';
+
+const groups = await groupsByStage();
+const closed = (await allWidgets()).filter(isPrivate);
+const total = (await allWidgets()).length;
+---
+<Base title="Виджеты экосистемы po-helper-org" description="Возможности автоматизации, подключаемые к экосистеме po-helper-org: что снимает каждый виджет, кому помогает и в каком он статусе." path="/widgets/" current="widgets">
+  <main id="main" class="wrap">
+    <header class="m-hero">
+      <p class="eyebrow">Виджеты</p>
+      <h1>Что подключается к экосистеме</h1>
+      <p class="lead">{total} виджетов по стадиям процесса Product Owner. У каждого — задача, которую он снимает, статус и ссылка на репозиторий, если он открыт.</p>
+    </header>
+
+    {groups.map((g) => (
+      <section class="wgroup" aria-labelledby={`g-${g.key}`}>
+        <h2 id={`g-${g.key}`}>{g.title}</h2>
+        <p class="note">{g.hint} · <a href={g.url}>Читать стадию</a></p>
+        <ul class="wgrid">{g.widgets.map((w) => <WidgetCard w={w} />)}</ul>
+      </section>
+    ))}
+
+    {closed.length > 0 && (
+      <section class="wgroup" aria-labelledby="g-closed">
+        <h2 id="g-closed">Закрытый контур</h2>
+        <p class="note">Серверная часть экосистемы. Репозитории закрыты, доступ по договорённости.</p>
+        <ul class="wgrid">{closed.map((w) => <WidgetCard w={w} />)}</ul>
+      </section>
+    )}
+
+    <aside class="cta glass">
+      <p>Нужен виджет под вашу команду или показ закрытого контура?</p>
+      <a class="btn" href={SITE.contact.href} target="_blank" rel="noopener">{SITE.contact.label}</a>
+    </aside>
+  </main>
+</Base>

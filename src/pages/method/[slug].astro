@@ -1,0 +1,96 @@
+---
+// Узел методологии (область или тема): ключевой вопрос, диаграмма, текст, вложенные темы, материалы основного сайта.
+import Base from '../../layouts/Base.astro';
+import Flow from '../../components/Flow.astro';
+import { render } from 'astro:content';
+import { allNodes, childrenOf, ancestors, nodeUrl, materialsOf, type MethodNode } from '../../lib/method';
+import { SITE } from '../../lib/site';
+import { widgetsOfNode, widgetUrl, isPrivate } from '../../lib/widgets';
+
+export async function getStaticPaths() {
+  const nodes = await allNodes();
+  return nodes.filter((n) => n.data.level !== 'problem').map((n) => ({ params: { slug: n.id }, props: { n } }));
+}
+const { n } = Astro.props as { n: MethodNode };
+const nodes = await allNodes();
+const { Content, headings } = await render(n);
+const stepLinks: Record<number, string> = {};
+for (const h of headings) { const m = h.depth === 2 && h.text.match(/^Шаг\s+(\d+)/); if (m) stepLinks[Number(m[1])] = `#${h.slug}`; }
+const ROLE_LABEL = { stage: 'Стадия', branch: 'Ответвление', foundation: 'Основание' } as const;
+const eyebrow = n.data.role === 'stage' ? `Стадия ${n.data.stage}` : n.data.role ? ROLE_LABEL[n.data.role] : n.data.level === 'area' ? 'Область методологии' : 'Тема методологии';
+const chain = ancestors(nodes, n);
+const kids = childrenOf(nodes, n.id);
+const materials = materialsOf(n);
+const widgets = await widgetsOfNode(n.id);
+const siblings = childrenOf(nodes, n.data.parent ?? '');
+const idx = siblings.findIndex((s) => s.id === n.id);
+const next = siblings[idx + 1];
+const prev = idx > 0 ? siblings[idx - 1] : undefined;
+const crumbs = chain.map((c) => ({ name: c.data.level === 'problem' ? 'Методология' : c.data.title, url: nodeUrl(c) }));
+const fmt = (d: Date) => d.toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' });
+---
+<Base title={`${n.data.title}: методология po-helper-org`} description={n.data.description} path={`/method/${n.id}/`} current="method">
+  <main id="main" class="wrap method">
+    <p class="crumbs">{crumbs.map((c) => <><a href={c.url}>{c.name}</a> / </>)}</p>
+    <header class="m-hero">
+      <p class="eyebrow">{eyebrow}</p>
+      <h1>{n.data.title}</h1>
+      <p class="lead">{n.data.question}</p>
+      <p class="meta">
+        <a href={SITE.owner.href} rel="author">{SITE.owner.name}</a>
+        <time datetime={n.data.date.toISOString()}>{fmt(n.data.date)}</time>
+        {n.data.updated && <span>обновлено <time datetime={n.data.updated.toISOString()}>{fmt(n.data.updated)}</time></span>}
+      </p>
+    </header>
+
+    {n.data.flow.length > 0 && (
+      <section class="stage-wide" aria-labelledby="karkas">
+        <h2 id="karkas">Общий каркас процесса</h2>
+        {n.data.summary && <p class="stage-summary">{n.data.summary}</p>}
+        <Flow flow={n.data.flow} links={stepLinks} label={`Процесс: ${n.data.title}`} />
+      </section>
+    )}
+
+    <article class="prose"><Content /></article>
+
+    {n.data.gate && (
+      <section class="gate-box glass">
+        <h2>Гейт: {n.data.gate.title}</h2>
+        {n.data.gate.criteria.length > 0 && <ul>{n.data.gate.criteria.map((c) => <li>{c}</li>)}</ul>}
+      </section>
+    )}
+
+    {kids.length > 0 && (
+      <section>
+        <h2>{n.data.role === 'stage' ? 'Глубже: темы стадии' : 'Темы области'}</h2>
+        <ul class="list-compact">
+          {kids.map((k) => <li><a href={nodeUrl(k)}><span>{k.data.title}<br /><small>{k.data.question}</small></span></a></li>)}
+        </ul>
+      </section>
+    )}
+
+    {widgets.length > 0 && (
+      <section>
+        <h2>Что автоматизирует эту часть</h2>
+        <ul class="materials">
+          {widgets.map((w) => <li><a href={widgetUrl(w)}><span class="materials__type">{w.data.status}</span><span>{w.data.title}{isPrivate(w) ? ' (закрытый контур)' : ''}</span></a></li>)}
+        </ul>
+      </section>
+    )}
+
+    {materials.length > 0 && (
+      <section>
+        <h2>{n.data.level === 'area' ? 'Инструменты и материалы' : 'Материалы по теме'}</h2>
+        <p class="note">Материалы лежат на основном сайте aleksishmanov.ru.</p>
+        <ul class="materials">
+          {materials.map((m) => <li><a href={m.url}><span class="materials__type">{m.type}</span><span>{m.title}</span></a></li>)}
+        </ul>
+      </section>
+    )}
+
+    <nav class="pager" aria-label="Соседние узлы">
+      {prev ? <a class="btn btn--ghost" href={nodeUrl(prev)}>← {prev.data.short ?? prev.data.title}</a> : <span />}
+      {next && <a class="btn btn--ghost" href={nodeUrl(next)}>{next.data.short ?? next.data.title} →</a>}
+    </nav>
+  </main>
+</Base>

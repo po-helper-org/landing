@@ -1,0 +1,16 @@
+---
+import type { Widget } from '../lib/widgets';
+import { widgetUrl } from '../lib/widgets';
+interface Props { w: Widget }
+const { w } = Astro.props;
+const STATUS_CLASS: Record<string, string> = { 'работает': 'ok', 'в разработке': 'wip', 'заморожен': 'frozen', 'закрытый': 'closed' };
+---
+<li class="wcard glass">
+  <p class="wcard__meta">
+    <span class={`chip chip--${STATUS_CLASS[w.data.status]}`}>{w.data.status}</span>
+    <span class="wcard__type">{w.data.type}</span>
+  </p>
+  <h3><a href={widgetUrl(w)}>{w.data.title}</a></h3>
+  <p class="wcard__task">{w.data.task}</p>
+  <p class="wcard__aud">Кому: {w.data.audience}</p>
+</li>

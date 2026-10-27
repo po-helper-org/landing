@@ -1,0 +1,63 @@
+---
+// Корень методологии: одна схема из пяти стадий, по строке на каждую (вопрос, шаги, выход), основания и ответвление.
+import Base from '../../layouts/Base.astro';
+import { render } from 'astro:content';
+import { allNodes, root, nodeUrl, byRole, type MethodNode } from '../../lib/method';
+import { SITE } from '../../lib/site';
+
+const nodes = await allNodes();
+const r = await root();
+const { Content } = await render(r);
+const stages = byRole(nodes, 'stage');
+const foundations = byRole(nodes, 'foundation');
+const branches = byRole(nodes, 'branch');
+const steps = (n: MethodNode) => n.data.flow.filter((f) => f.step).map((f) => f.title);
+const gate = (n: MethodNode) => n.data.gate?.title.toLowerCase();
+---
+<Base title={`${r.data.title}: методология po-helper-org`} description={r.data.description} path="/method/" current="method">
+  <main id="main" class="wrap method">
+    <header class="m-hero">
+      <p class="eyebrow">Методология</p>
+      <h1>{r.data.title}</h1>
+      <p class="lead">{r.data.summary}</p>
+    </header>
+
+    <ol class="m-flow" aria-label="Пять стадий от запроса до результата">
+      {stages.map((s) => (
+        <li>
+          <a href={nodeUrl(s)}>
+            <span class="m-flow__num">{s.data.stage}</span>
+            <span class="m-flow__name">{s.data.short}</span>
+            {gate(s) && <span class="m-flow__gate">{gate(s)}</span>}
+          </a>
+        </li>
+      ))}
+    </ol>
+    <p class="m-base">
+      Под всеми стадиями — {foundations.map((e, i) => <>{i > 0 && ' и '}<a href={nodeUrl(e)}>{e.data.short?.toLowerCase()}</a></>)}.
+      {branches.map((e) => <> Если бизнес просит не доработку, а продукт, — отдельный маршрут: <a href={nodeUrl(e)}>{e.data.short?.toLowerCase()}</a>.</>)}
+    </p>
+
+    <section class="m-stages" aria-label="Стадии">
+      {stages.map((s) => (
+        <article class="m-stage glass" id={`stadiya-${s.data.stage}`}>
+          <p class="m-stage__num">{String(s.data.stage).padStart(2, '0')}</p>
+          <div>
+            <h2><a href={nodeUrl(s)}>{s.data.short}</a></h2>
+            <p class="m-stage__q">{s.data.question}</p>
+            <p class="m-stage__steps">{steps(s).join(' → ')}</p>
+            {gate(s) && <p class="m-stage__out">На выходе: {gate(s)}</p>}
+            <a class="m-more" href={nodeUrl(s)}>Читать стадию</a>
+          </div>
+        </article>
+      ))}
+    </section>
+
+    <div class="prose"><Content /></div>
+
+    <aside class="cta glass">
+      <p>Хотите разобрать свой департамент по этому процессу?</p>
+      <a class="btn" href={SITE.contact.href} target="_blank" rel="noopener">{SITE.contact.label}</a>
+    </aside>
+  </main>
+</Base>

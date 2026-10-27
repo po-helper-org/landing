@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+import { render } from 'astro:content';
+import { allWidgets, isPrivate, type Widget } from '../../lib/widgets';
+import { allNodes, nodeUrl } from '../../lib/method';
+import { SITE, href } from '../../lib/site';
+
+export async function getStaticPaths() {
+  return (await allWidgets()).map((w) => ({ params: { slug: w.id }, props: { w } }));
+}
+const { w } = Astro.props as { w: Widget };
+const { Content } = await render(w);
+const nodes = (await allNodes()).filter((n) => w.data.nodes.includes(n.id));
+const closed = isPrivate(w);
+---
+<Base title={`${w.data.title}: виджет po-helper-org`} description={w.data.task} path={`/widgets/${w.id}/`} current="widgets">
+  <main id="main" class="wrap">
+    <p class="crumbs"><a href={href('/widgets/')}>Виджеты</a> /</p>
+    <header class="m-hero">
+      <p class="eyebrow">{w.data.type} · {w.data.status}</p>
+      <h1>{w.data.title}</h1>
+      <p class="lead">{w.data.task}</p>
+    </header>
+
+    <dl class="facts glass">
+      <div><dt>Кому помогает</dt><dd>{w.data.audience}</dd></div>
+      <div><dt>Статус</dt><dd>{w.data.status}</dd></div>
+      <div><dt>Тип</dt><dd>{w.data.type}</dd></div>
+      <div><dt>Часть методологии</dt><dd>{nodes.map((n, i) => <>{i > 0 && ', '}<a href={nodeUrl(n)}>{n.data.short ?? n.data.title}</a></>)}</dd></div>
+    </dl>
+
+    <div class="prose"><Content /></div>
+    {closed && w.data.note && <p class="prose">{w.data.note}</p>}
+
+    {closed ? (
+      <aside class="cta glass">
+        <p>Репозиторий закрыт. Показ возможен по договорённости.</p>
+        <a class="btn" href={SITE.contact.href} target="_blank" rel="noopener">{SITE.contact.label}</a>
+      </aside>
+    ) : w.data.repo && (
+      <p><a class="btn btn--ghost" href={w.data.repo} target="_blank" rel="noopener">Репозиторий на GitHub</a></p>
+    )}
+  </main>
+</Base>

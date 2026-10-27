@@ -1,10 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
-const home = import.meta.env.BASE_URL;
+import { href } from '../lib/site';
 ---
-<Base title="Страница не найдена — po-helper-org" description="Такой страницы в разделе нет.">
-  <main>
+<Base title="Страница не найдена — po-helper-org" description="Такой страницы в подсайте нет." path="/404/">
+  <main id="main" class="wrap">
     <h1>Страницы нет</h1>
-    <p><a href={home}>Вернуться на главную раздела</a></p>
+    <p><a href={href('/')}>Вернуться на главную подсайта</a></p>
   </main>
 </Base>
