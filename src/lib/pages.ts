@@ -1,4 +1,4 @@
-// Перечень страниц подсайта для карты сайта и llms-po-system.txt.
+// Перечень страниц подсайта для карты сайта и llms.txt.
 import { allNodes, nodeUrl } from './method';
 import { allWidgets, widgetUrl } from './widgets';
 import { SITE, href } from './site';

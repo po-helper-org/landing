@@ -1,6 +1,7 @@
 // Всё, что подсайт знает о себе. Контакты и профили скопированы из основного сайта данными, общего кода с ним нет.
 export const SITE = {
-  origin: 'https://aleksishmanov.ru',
+  origin: 'https://po-system.aleksishmanov.ru',
+  mainOrigin: 'https://aleksishmanov.ru',
   name: 'po-helper-org',
   tagline: 'Экосистема для роли AI Product Owner',
   subtitle: 'Операционка для корпоративного Product Owner: методология и подключаемые виджеты автоматизации.',

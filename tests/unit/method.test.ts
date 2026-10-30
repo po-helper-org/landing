@@ -39,7 +39,7 @@ describe('узлы методологии', () => {
       for (const m of n.body.matchAll(/\]\(([^)\s]+)\)/g)) {
         const href = m[1];
         if (href.startsWith('#') || /^https?:\/\/(?!aleksishmanov\.ru)/.test(href) || href.startsWith('mailto:')) continue;
-        const node = href.match(/^\/po-system\/method\/([^/#]*)\/?(?:#.*)?$/);
+        const node = href.match(/^\/method\/([^/#]*)\/?(?:#.*)?$/);
         if (node) {
           if (node[1]) expect(slugs.has(node[1]), `${n.slug}: узел ${href}`).toBe(true);
           continue;
@@ -55,7 +55,8 @@ describe('узлы методологии', () => {
 
 describe('таблица старых адресов /method/', () => {
   it('ведёт только на существующие страницы подсайта', () => {
-    const targets = new Set(['/po-system/method/', ...[...slugs].map((s) => `/po-system/method/${s}/`)]);
+    const O = 'https://po-system.aleksishmanov.ru';
+    const targets = new Set([`${O}/method/`, ...[...slugs].map((s) => `${O}/method/${s}/`)]);
     for (const [from, to] of Object.entries(redirects)) {
       expect(from.startsWith('/method/'), from).toBe(true);
       expect(targets.has(to), `${from} → ${to}`).toBe(true);
@@ -63,7 +64,8 @@ describe('таблица старых адресов /method/', () => {
   });
 
   it('перенесённые узлы сохраняют свой адрес, корень идёт на карту', () => {
-    expect(redirects['/method/']).toBe('/po-system/method/');
-    for (const s of slugs) if (s !== 'it-departament') expect(redirects[`/method/${s}/`]).toBe(`/po-system/method/${s}/`);
+    const O = 'https://po-system.aleksishmanov.ru';
+    expect(redirects['/method/']).toBe(`${O}/method/`);
+    for (const s of slugs) if (s !== 'it-departament') expect(redirects[`/method/${s}/`]).toBe(`${O}/method/${s}/`);
   });
 });

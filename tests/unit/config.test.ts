@@ -5,17 +5,17 @@ describe('конфигурация подсайта', () => {
   const config = readFileSync('astro.config.mjs', 'utf8');
   const nginx = readFileSync('nginx.conf', 'utf8');
 
-  it('собирается с префиксом /po-system', () => {
-    expect(config).toMatch(/base:\s*'\/po-system'/);
+  it('собирается для своего поддомена без префикса', () => {
+    expect(config).toMatch(/site:\s*'https:\/\/po-system\.aleksishmanov\.ru'/);
+    expect(config).not.toMatch(/base:/);
   });
 
-  it('nginx отдаёт подсайт только под префиксом и не отвечает за корень', () => {
-    expect(nginx).toMatch(/location \^~ \/po-system\//);
-    expect(nginx).toMatch(/location \/ \{ return 404; \}/);
+  it('nginx отдаёт подсайт из корня с настоящим 404', () => {
+    expect(nginx).toMatch(/error_page 404 \/404\.html/);
+    expect(nginx).toMatch(/location \^~ \/_astro\//);
   });
 
-  it('не создаёт корневые robots.txt и sitemap-index.xml (их ведёт основной сайт)', () => {
-    expect(() => readFileSync('public/robots.txt')).toThrow();
-    expect(() => readFileSync('public/sitemap-index.xml')).toThrow();
+  it('robots.txt лежит в public и указывает на sitemap.xml', () => {
+    expect(readFileSync('public/robots.txt', 'utf8')).toContain('Sitemap: https://po-system.aleksishmanov.ru/sitemap.xml');
   });
 });

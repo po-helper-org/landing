@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Подсайт aleksishmanov.ru/po-system/: методология и витрина виджетов po-helper-org",
+  "description": "Подсайт po-system.aleksishmanov.ru: методология и витрина виджетов po-helper-org",
   "engines": {
     "node": ">=20"
   },

@@ -12,7 +12,7 @@ const { current } = Astro.props;
       <a href={href('/widgets/')} aria-current={current === 'widgets' ? 'page' : undefined}>Виджеты</a>
       <a href={href('/#closed')}>Закрытый контур</a>
       <a href={href('/#connect')}>Как подключить</a>
-      <a class="site-nav__back" href={SITE.origin + '/'}>← aleksishmanov.ru</a>
+      <a class="site-nav__back" href={SITE.mainOrigin + '/'}>← aleksishmanov.ru</a>
     </nav>
     <a class="icon-btn" href={SITE.contact.href} target="_blank" rel="noopener" aria-label="Написать в Telegram"><Icon name="telegram" size={20} /></a>
     <a class="btn btn--small" href={SITE.contact.href} target="_blank" rel="noopener">{SITE.contact.label}</a>
